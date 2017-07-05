@@ -79,13 +79,7 @@ $.get("include/navBar.html", function(data){
     <!-- end Header -->
   
     <!-- main-content -->
-    <div class="main-content">
-        <section id="witness">
-            <div class="container">
-                <?php include 'include/witness/witnessRow.php'; ?>
-            </div>
-        </section>
-    </div>
+       
     <!-- end main-content -->
     
     <!-- Footer -->

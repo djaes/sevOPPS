@@ -1,4 +1,3 @@
-<footer class="footer divider layer-overlay overlay-dark" data-bg-img="http://placehold.it/1920x1280">
     <div class="container pt-100 pb-30">
       <div class="row mb-50">
         <div class="col-sm-4 col-md-4 mb-sm-60">
@@ -71,4 +70,4 @@
         </div>
       </div>
     </div>
-  </footer>
+ 
