@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html dir="ltr" lang="en">
-<head>
 
 <!-- Meta Tags -->
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
@@ -47,69 +44,11 @@
 <!-- JS | jquery plugin collection for this theme -->
 <script src="js/jquery-plugin-collection.js"></script>
 
-<script>
-$.get("include/navBar.html", function(data){
-    $("#menuBar").replaceWith(data);
-});
-</script>
-
-
 <!-- Revolution Slider 5.x SCRIPTS -->
 <script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
 <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
 
-</head>
-
-
-<body class="boxed-layout pt-40 pb-40 pt-sm-0" data-bg-img="images/pattern/p8.png">
-<div id="wrapper">
-
-  <!-- preloader -->
-  <div id="preloader">
-    <div id="spinner">
-      <img src="images/preloaders/1.gif" alt="">
-    </div>
-    <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
-  </div>
-
-
-  <!-- Header -->
-   #include virtual="include/navBar.html"
-  <!-- end Header -->
-
-  
-  <!-- main-content -->
     
+<script src="http://www.w3schools.com/lib/w3data.js"></script>
     
-  <!-- end main-content -->
-    
-
-  <!-- Footer -->
-    <?php include 'include/footer.php'; ?>
-  <!-- End Footer -->  
-    
-<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a> </div>
-<!-- end wrapper --> 
-
-
-
-<!-- Scripts --> 
-<!-- JS | Calendar Event Data --> 
-<script src="js/calendar-events-data.js"></script> 
-<!-- JS | Custom script for all pages --> 
-<script src="js/custom.js"></script>
-
-<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
-      (Load Extensions only on Local File Systems ! 
-       The following part can be removed on Server for On Demand Loading) --> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
-</body>
-</html>
+<link rel="shortcut icon" href="images/iconBioactivfit.png">

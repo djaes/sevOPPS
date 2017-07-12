@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
+
     <!-- Meta Tags -->
     <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
@@ -20,10 +21,7 @@
     <link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
     <link href="css/animate.css" rel="stylesheet" type="text/css">
     <link href="css/css-plugin-collections.css" rel="stylesheet"/>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    
-    
-    <!--CSS | menuzord megamenu skins -->
+    <!-- CSS | menuzord megamenu skins -->
     <link id="menuzord-menu-skins" href="css/menuzord-skins/menuzord-boxed.css" rel="stylesheet"/>
     <!-- CSS | Main style file -->
     <link href="css/style-main.css" rel="stylesheet" type="text/css">
@@ -35,8 +33,9 @@
     <link href="css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
     <!-- CSS | Responsive media queries -->
     <link href="css/responsive.css" rel="stylesheet" type="text/css">
-     
-    
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
     <!-- Revolution Slider 5.x CSS settings -->
     <link  href="js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css"/>
     <link  href="js/revolution-slider/css/layers.css" rel="stylesheet" type="text/css"/>
@@ -52,10 +51,13 @@
     <!-- Revolution Slider 5.x SCRIPTS -->
     <script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
     <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="http://www.w3schools.com/lib/w3data.js"></script>   
-    
+
+
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+
 </head>
-    
+
+
 <body class="boxed-layout pb-40 pt-sm-0" data-bg-img="images/pattern/p8.png">
     <div id="wrapper">
         <!-- preloader -->
@@ -65,33 +67,32 @@
             </div>
             <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
         </div>
-
+        <!-- end preloader -->
+        
         <!-- Header -->
         <?php include 'include/menuTop.php'; ?>
         <!-- end Header -->
 
         <!-- Main-content -->
         <div class="main-content">
-            <!-- Section: slide -->
-            <section id="slide" class="">
-                <?php include 'include/home/slide.php'; ?>
-            </section>
-            
-            <!-- Section: Descript -->   
-            <section id="descript" class=" parallax layer-overlay overlay-white" data-bg-img="http://placehold.it/1920x1280">
-                <?php include 'include/home/descript.php'; ?>
+            <!-- Section: inner-header -->
+            <section class="inner-header divider parallax layer-overlay overlay-dark-5" data-bg-img="images/bg/bg7.jpg">
+                <?php include 'include/product/inner-header.php'; ?>
             </section>
 
-            <!-- Section: Produit  -->
-            <section id="product" class="bg-lighter">
-                <?php include 'include/home/product.php'; ?>
-            </section> 
-            
-            <!-- Section: temoignages -->
-            <section id="witness" class="divider parallax layer-overlay overlay-white"  data-bg-img="http://placehold.it/1920x1280" >
-                <?php include 'include/home/witness.php'; ?>
+            <section class="">
+                <div class="container">
+                    <div class="row">
+                        <?php include 'include/product/descript.php'; ?>
+                    </div>
+                </div>
             </section>
-
+            <!-- Section: Features -->
+            <section id="features" class="bg-lighter">
+                <div class="container">
+                    <?php include 'include/product/features.php'; ?>
+                </div>
+            </section>
         </div>
         <!-- end main-content -->
 
@@ -100,61 +101,39 @@
         <?php include 'include/footer.php'; ?>
         <!-- End Footer -->  
     
-    </div>
-    <!-- end wrapper --> 
-	<div class="modal" id="form_commande">
-		<!-- Modal content -->
-		<div class="modal-content">
-			<span class="close">&times;</span>
-			<?php
-			include ("commandFormHoriz.html");
-			?>	
-		</div>
-	</div>
+</div>
+<!-- end wrapper --> 
 
-    <!-- Scripts --> 
-    <!-- JS | Calendar Event Data --> 
-    <script src="js/calendar-events-data.js"></script> 
-    <!-- JS | Custom script for all pages --> 
-    <script src="js/custom.js"></script>
 
-    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
-          (Load Extensions only on Local File Systems ! 
-           The following part can be removed on Server for On Demand Loading) --> 
-    <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script> 
-    <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script> 
-    <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script> 
-    <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script> 
-    <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script> 
-    <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script> 
-    <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script> 
-    <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script> 
-    <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
+
+<!-- Scripts --> 
+<!-- JS | Calendar Event Data --> 
+<script src="js/calendar-events-data.js"></script> 
+<!-- JS | Custom script for all pages --> 
+<script src="js/custom.js"></script>
+
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
+      (Load Extensions only on Local File Systems ! 
+       The following part can be removed on Server for On Demand Loading) --> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
     <script type="text/javascript">
-        function open_infos()
-		{
-		   /* width = 1000;
-			height = 500;
-
-			window.open('commandFormHoriz.html','CMD_Bioactivfit',' width='+width+', height='+height+'');*/
-			$("#form_commande").show();
-		}
-		var modal = document.getElementById('form_commande');
-		// Get the <span> element that closes the modal
-		var span = document.getElementsByClassName("close")[0];
-
-		// When the user clicks on <span> (x), close the modal
-		span.onclick = function() {
-			modal.style.display = "none";
-		}
-
-		// When the user clicks anywhere outside of the modal, close it
-		window.onclick = function(event) {
-			if (event.target == modal) {
-				modal.style.display = "none";
-			}
-		}
-    </script>
-	
+                <!--
+                        function open_infos()
+                        {
+                                width = 1000;
+                                height = 500;
+                                
+                                window.open('commandFormHoriz.html','CMD_Bioactivfit',' width='+width+', height='+height+'');
+                        }
+                -->
+                </script>
 </body>
 </html>
