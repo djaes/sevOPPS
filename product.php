@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
-
     <!-- Meta Tags -->
     <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
@@ -21,6 +20,9 @@
     <link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
     <link href="css/animate.css" rel="stylesheet" type="text/css">
     <link href="css/css-plugin-collections.css" rel="stylesheet"/>
+    
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    
     <!-- CSS | menuzord megamenu skins -->
     <link id="menuzord-menu-skins" href="css/menuzord-skins/menuzord-boxed.css" rel="stylesheet"/>
     <!-- CSS | Main style file -->
@@ -34,12 +36,7 @@
     <!-- CSS | Responsive media queries -->
     <link href="css/responsive.css" rel="stylesheet" type="text/css">
 
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-
-    <!-- Revolution Slider 5.x CSS settings -->
-    <link  href="js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css"/>
-    <link  href="js/revolution-slider/css/layers.css" rel="stylesheet" type="text/css"/>
-    <link  href="js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css"/>
+    
 
     <!-- external javascripts -->
     <script src="js/jquery-2.2.4.min.js"></script>
@@ -48,17 +45,12 @@
     <!-- JS | jquery plugin collection for this theme -->
     <script src="js/jquery-plugin-collection.js"></script>
 
-    <!-- Revolution Slider 5.x SCRIPTS -->
-    <script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
-    <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
-
-
-    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    
 
 </head>
 
 
-<body class="boxed-layout pb-40 pt-sm-0" data-bg-img="images/pattern/p8.png">
+<body class="boxed-layout pb-40 pt-sm-0">
     <div id="wrapper">
         <!-- preloader -->
         <div id="preloader">
@@ -103,37 +95,19 @@
     
 </div>
 <!-- end wrapper --> 
-
+    <!-- modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+       <?php
+        include ("commandForm.php");
+        ?>	 
+    </div>
 
 
 <!-- Scripts --> 
-<!-- JS | Calendar Event Data --> 
-<script src="js/calendar-events-data.js"></script> 
+
 <!-- JS | Custom script for all pages --> 
 <script src="js/custom.js"></script>
 
-<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
-      (Load Extensions only on Local File Systems ! 
-       The following part can be removed on Server for On Demand Loading) --> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
-    <script type="text/javascript">
-                <!--
-                        function open_infos()
-                        {
-                                width = 1000;
-                                height = 500;
-                                
-                                window.open('commandFormHoriz.html','CMD_Bioactivfit',' width='+width+', height='+height+'');
-                        }
-                -->
-                </script>
+
 </body>
 </html>

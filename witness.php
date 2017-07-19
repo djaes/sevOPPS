@@ -20,6 +20,7 @@
     <link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
     <link href="css/animate.css" rel="stylesheet" type="text/css">
     <link href="css/css-plugin-collections.css" rel="stylesheet"/>
+    
     <link href="css/style.css" rel="stylesheet" type="text/css">
     
     <!-- CSS | menuzord megamenu skins -->
@@ -35,12 +36,6 @@
     <!-- CSS | Responsive media queries -->
     <link href="css/responsive.css" rel="stylesheet" type="text/css">
 
-    
-
-    <!-- Revolution Slider 5.x CSS settings -->
-    <link  href="js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css"/>
-    <link  href="js/revolution-slider/css/layers.css" rel="stylesheet" type="text/css"/>
-    <link  href="js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css"/>
 
     <!-- external javascripts -->
     <script src="js/jquery-2.2.4.min.js"></script>
@@ -49,21 +44,10 @@
     <!-- JS | jquery plugin collection for this theme -->
     <script src="js/jquery-plugin-collection.js"></script>
 
-    <script>
-    $.get("include/navBar.html", function(data){
-        $("#menuBar").replaceWith(data);
-    });
-    </script>
-
-
-    <!-- Revolution Slider 5.x SCRIPTS -->
-    <script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
-    <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
-
 </head>
 
 
-<body class="boxed-layout pb-40 pt-sm-0" data-bg-img="images/pattern/p8.png">
+<body class="boxed-layout pb-40 pt-sm-0" >
 <div id="wrapper">
 
   <!-- preloader -->
@@ -96,7 +80,7 @@
                 </div>
                 <hr>
                 <div class="row">
-                    <?php include 'include/witness/witnessRow2.php'; ?>
+                    <?php include 'include/witness/witnessRow2.php'; ?>    
                 </div>
             </div>
         </section>
@@ -112,24 +96,17 @@
 <!-- end wrapper --> 
 
 
-
+    <!-- modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+       <?php
+        include ("commandForm.php");
+        ?>	 
+    </div>
+    
 <!-- Scripts --> 
-<!-- JS | Calendar Event Data --> 
-<script src="js/calendar-events-data.js"></script> 
+
 <!-- JS | Custom script for all pages --> 
 <script src="js/custom.js"></script>
 
-<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
-      (Load Extensions only on Local File Systems ! 
-       The following part can be removed on Server for On Demand Loading) --> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
 </body>
 </html>

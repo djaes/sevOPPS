@@ -56,7 +56,7 @@
     
 </head>
     
-<body class="boxed-layout pb-40 pt-sm-0" data-bg-img="images/pattern/p8.png">
+<body class="boxed-layout pb-40 pt-sm-0">
     <div id="wrapper">
         <!-- preloader -->
         <div id="preloader">
@@ -78,8 +78,11 @@
             </section>
             
             <!-- Section: Descript -->   
-            <section id="descript" class=" parallax layer-overlay overlay-white" data-bg-img="http://placehold.it/1920x1280">
+            <section id="descript" class=" parallax layer-overlay overlay-white" data-bg-img="images/1920x1280.png">
                 <?php include 'include/home/descript.php'; ?>
+                
+                
+            
             </section>
 
             <!-- Section: Produit  -->
@@ -93,6 +96,7 @@
             </section>
 
         </div>
+        
         <!-- end main-content -->
 
 
@@ -100,18 +104,86 @@
         <?php include 'include/footer.php'; ?>
         <!-- End Footer -->  
     
+        <!-- Modal -->
+  <div class="modal modal-transparent fade active" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="no-background">
+        
+            
+          
+            
+<section class="background modal-header" style="border-radius: 50px;box-shadow: inset 0 0 60px #cbf031, 0 0 5px #abc502;">
+    <div class="" name="">
+        <div class="row" style="margin: 0;" >
+        
+        <div class="text-center mb-12"><a href="#" class=""><img id="logoCMD" alt="" src="images/logo-favicon/logo_500X150.png"></a>
+        </div>
     </div>
+</div>
+                <div class="row">
+    <form class="imc" name="imc";>
+        <div class="form-group col-md-8 bordered imc-range">
+            <p style="text-align: center;">Votre situation à partir de l'IMC:</p>
+            <div>
+                <label for="form_size">Taille</label> 
+                <input type="range" id="size" name="size" value="1.55" min="1.10" max="2.10" step="0.01" data-show-value="true"><output>1.55 Métres</output>
+            </div>
+            
+            <div>
+                <label for="form_weight">Poid</label>
+                <input type="range" id="weight" name="weight" value="60" min="40" max="100" step="1" data-show-value="true"><output>60 kilos</output>
+            </div>
+        </div>
+
+        <div class="form-group col-md-3 bordered imc-calcul">
+            <label id="imcSituation" class="no-background">Corpulence normale</label>
+            <br>
+            <img id="imcSituation_img" src="images/IMC/ideal.png">
+        </div>    
+  </form>
+</div>
+      </section>      
+            
+        
+        <div class="modal-body" style="padding: 30px;">
+          <?php
+            include ("cmForm.php");
+            ?>	
+            
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+        
+        
+        
+    </div>
+    
     <!-- end wrapper --> 
 	<div class="modal" id="form_commande">
 		<!-- Modal content -->
 		<div class="modal-content">
 			<span class="close">&times;</span>
 			<?php
-			include ("commandFormHoriz.html");
+			//include ("commandFormHoriz.html");
 			?>	
 		</div>
 	</div>
-
+    
+    
+    
+    <!-- modal -->
+    <div class="modal fade" id="myModal1" role="dialog">
+       <?php
+        include ("commandForm.php");
+        ?>	 
+    </div>
+    
+    
     <!-- Scripts --> 
     <!-- JS | Calendar Event Data --> 
     <script src="js/calendar-events-data.js"></script> 
@@ -130,6 +202,14 @@
     <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script> 
     <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script> 
     <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+        $("#myBtn").click(function(){
+            $("#myModal").modal();
+    });
+});
+</script>
     <script type="text/javascript">
         function open_infos()
 		{

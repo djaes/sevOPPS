@@ -1,8 +1,15 @@
-<footer class="footer divider layer-overlay overlay-dark" data-bg-img="http://placehold.it/1920x1280">
-            <div class="container pt-100 pb-30">
+<footer class="footer divider layer-overlay overlay-dark" data-bg-img="images/1920X1280.png">
+    <div class="container pt-100 pb-30">
+        <div class="row trust-small text-center">
+            <div class="col-xs-4"><i class="fa fa-shield" aria-hidden="true" style="font-size: 8em;"></i><br> Paiement <span>sécurisé</span><hr></div>
+            <div class="col-xs-4"><i class="fa fa-truck" aria-hidden="true" style="font-size: 8em;"></i><br> Livraison <span>en 48h</span><hr></div>
+            <div class="col-xs-4"><i class="fa fa-smile-o" aria-hidden="true" style="font-size: 8em;"></i><br> Satisfait <span>ou remboursé</span><hr></div>
+        </div>
+        
+        <br>
       <div class="row mb-50">
         <div class="col-sm-4 col-md-4 mb-sm-60">
-          <div class="widget dark"> <img class="mt-10 mb-20" alt="" src="images/logo_500X150.png">
+          <div class="widget dark"> <img class="mt-10 mb-20" alt="" src="images/logo-favicon/logo_500X150.png">
             <p class="font-12">Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet</p>
             
           </div>

@@ -1,17 +1,17 @@
 <div class="container-fluid p-0">
                     <!-- Slider Revolution Start -->
                     <div class="rev_slider_wrapper">
-                        <a onclick="javascript:open_infos();">
+                        
                             <div class="rev_slider" data-version="5.0">
                                 <ul>
                                     <!-- SLIDE 1 -->
-                                    <li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/anaca3-capteur-graisses-sucres.jpg" data-rotate="0" data-saveperformance="off" data-title="Web Show" data-description="">
+                                    <li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/slide/product-slide1920X1280.jpg" data-rotate="0" data-saveperformance="off" data-title="Web Show" data-description="">
                                         <!-- MAIN IMAGE -->
-                                        <img src="http://placehold.it/1920x1280"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="6" data-no-retina>
+                                        <img src="images/1920x1280.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="6" data-no-retina>
                                         <!-- LAYERS --> 
                 
                                         <!-- LAYER NR. 1 -->
-                                        <div class="tp-caption tp-resizeme text-center text-white font-raleway bg-dark-transparent pl-30 pr-30 border-theme-colored" 
+                                        <div class="tp-caption tp-resizeme text-center text-white font-raleway bg-dark-transparent pl-30 pr-30 border-theme-colored no-background no-border" 
                                           id="rs-1-layer-1"
 
                                           data-x="['right']"
@@ -33,10 +33,10 @@
                                           data-splitin="none" 
                                           data-splitout="none" 
                                           data-responsive_offset="on"
-                                          style="z-index: 5; white-space: nowrap; font-weight:600; border-right: 6px solid;cursor: pointer;">Back la tour </div>
+                                          style="z-index: 5; white-space: nowrap; font-weight:600; border-right: 6px solid;cursor: pointer;" data-toggle="modal" data-target="#myModal">Commander le maintenant</div>
 
                                         <!-- LAYER NR. 2 -->
-                                        <div class="tp-caption tp-resizeme text-center text-white font-raleway bg-dark-transparent pl-30 pr-30 border-theme-colored" 
+                                        <div class="tp-caption tp-resizeme text-center text-white font-raleway bg-dark-transparent pl-30 pr-30 border-theme-colored no-background no-border" 
                                           id="rs-1-layer-2"
 
                                           data-x="['right']"
@@ -44,7 +44,7 @@
                                           data-y="['middle']"
                                           data-voffset="['50'']"
                                           data-fontsize="['48','64','54','24']"
-                                          data-lineheight="['75']"
+                                          data-lineheight="['50']"
 
                                           data-width="none"
                                           data-height="none"
@@ -58,7 +58,32 @@
                                           data-splitin="none" 
                                           data-splitout="none" 
                                           data-responsive_offset="on"
-                                          style="z-index: 5; white-space: nowrap; font-weight:600; border-right: 6px solid;cursor: pointer;">Like a merguez </div>
+                                          style="z-index: 5; white-space: nowrap; font-weight:600; border-right: 6px solid;cursor: pointer;" data-toggle="modal" data-target="#myModal">Et recevez un cadeau</div>
+                                        
+                                        <div class="tp-caption tp-resizeme text-center text-white font-raleway bg-dark-transparent pl-30 pr-30 border-theme-colored no-border" 
+                                          id="rs-1-layer-2"
+                                            data-x="['middle']"
+                                            data-hoffset="['30']"
+                                            data-y="['bottom']"
+                                            data-voffset="['50'']"
+                                            data-fontsize="['30','44','38','16']"
+                                            data-lineheight="['60']"
+                                             
+                                            data-width="none"
+                                            data-height="none"
+                                            data-whitespace="nowrap"
+                                            data-transform_idle="o:1;s:500"
+                                            data-transform_in="y:100;scaleX:1;scaleY:1;opacity:0;"
+                                            data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
+                                            data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                                            data-start="1400" 
+                                            data-splitin="none" 
+                                            data-splitout="none" 
+                                            data-responsive_offset="on"
+                                            style="z-index: 5; white-space: nowrap; font-weight:600; border-right: 6px solid;cursor: pointer;" data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i> COMMANDER MAINTENANT</div>
+                                        
+                                        
                                       </li>
                                     
 
@@ -67,7 +92,7 @@
                                 </ul>
                             </div>
                             <!-- end .rev_slider -->
-                        </a>
+                        
                     </div>
                     <!-- end .rev_slider_wrapper -->
                     <script>

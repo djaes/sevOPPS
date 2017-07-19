@@ -13,26 +13,29 @@
         var imc = document.getElementById('weight').value/(document.getElementById('size').value * document.getElementById('size').value) ;
         //console.log(imc);
         switch (true) {
-                case (imc <= 16.0) :
-                    document.getElementById('imcSituation').value = "Anorexie ou dénutrition"
-                    break;
                 case (imc <= 18.0) :
-                    document.getElementById('imcSituation').value = "Maigreur"
+                    document.getElementById('imcSituation').innerHTML = "Maigreur ou dénutrition";
+                    document.getElementById('imcSituation_img').src = "images/IMC/maigre.png";
                     break;
                 case (imc <= 25.0):
-                    document.getElementById('imcSituation').value = "Corpulence normale "
+                    document.getElementById('imcSituation').innerHTML = "Corpulence normale";
+                    document.getElementById('imcSituation_img').src = "images/IMC/ideal.png";
                     break;
                 case (imc <= 30.0):
-                    document.getElementById('imcSituation').value = "Surpoids"
+                    document.getElementById('imcSituation').innerHTML = "Surpoids";
+                    document.getElementById('imcSituation_img').src = "images/IMC/surpoid.png";
                     break;
                 case (imc <= 35.0):
-                    document.getElementById('imcSituation').value = "Obésité modérée"
+                    document.getElementById('imcSituation').innerHTML = "Obésité modérée";
+                    document.getElementById('imcSituation_img').src = "images/IMC/obesite.png";
                     break;
                 case (imc <= 40.0):
-                    document.getElementById('imcSituation').value = "Obésité élevé"
+                    document.getElementById('imcSituation_img').src = "images/IMC/obesite-severe.png";
+                    document.getElementById('imcSituation').innerHTML = "Obésité élevé";
                     break;
                 default:
-                    document.getElementById('imcSituation').value = "Obésite massive "
+                    document.getElementById('imcSituation_img').src = "images/IMC/obesite-massive.png";
+                    document.getElementById('imcSituation').innerHTML = "Obésite massive ";
                     break; 
                }
     }

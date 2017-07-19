@@ -28,6 +28,8 @@
                         <i class="fa fa-globe text-theme-colored mr-10"></i> <?php echo $addrSite; ?>
                     </p>               
                     <a class="btn btn-dark btn-theme-colored btn-circled" onclick="javascript:open_infos();">Commande</a>
+                    <!-- Trigger the modal with a button -->
+                    <button type="button" class="btn btn-dark btn-theme-colored btn-circled" data-toggle="modal" data-target="#myModal">Commander Bioactivfit</button>
                 </div>
             </div>
         </div>
