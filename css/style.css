@@ -29,10 +29,12 @@
     
 }
 @media(max-width:991px){
-    #imc {
-        margin: 30px;
+    .imc-calcul {
+        border: none ! important;
+        width: -moz-available;
     }
 }
+
 .imc {
     min-height: 260px;
     margin: 10px 30px 0px 30px;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
+<html dir="ltr" lang="fr">
 <head>
     <!-- Meta Tags -->
     <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
@@ -97,11 +97,17 @@
 
 
     <!-- modal -->
-    <div class="modal fade" id="myModal" role="dialog">
-       <?php
-        include ("commandForm.php");
-        ?>	 
+    <div class="modal modal-transparent fade active" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">    
+      <!-- Modal content-->
+      <div class="no-background">          
+        <?php
+            include ("cmForm.php");
+        ?>
+      </div>
+      
     </div>
+  </div>
     
 <!-- Scripts --> 
 

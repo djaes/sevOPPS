@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="fr">
+<html dir="ltr" lang="en">
 <head>
     <!-- Meta Tags -->
     <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
@@ -20,10 +20,10 @@
     <link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
     <link href="css/animate.css" rel="stylesheet" type="text/css">
     <link href="css/css-plugin-collections.css" rel="stylesheet"/>
-    
     <link href="css/style.css" rel="stylesheet" type="text/css">
     
-    <!-- CSS | menuzord megamenu skins -->
+    
+    <!--CSS | menuzord megamenu skins -->
     <link id="menuzord-menu-skins" href="css/menuzord-skins/menuzord-boxed.css" rel="stylesheet"/>
     <!-- CSS | Main style file -->
     <link href="css/style-main.css" rel="stylesheet" type="text/css">
@@ -35,8 +35,12 @@
     <link href="css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
     <!-- CSS | Responsive media queries -->
     <link href="css/responsive.css" rel="stylesheet" type="text/css">
-
+     
     
+    <!-- Revolution Slider 5.x CSS settings -->
+    <link  href="js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css"/>
+    <link  href="js/revolution-slider/css/layers.css" rel="stylesheet" type="text/css"/>
+    <link  href="js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css"/>
 
     <!-- external javascripts -->
     <script src="js/jquery-2.2.4.min.js"></script>
@@ -45,75 +49,30 @@
     <!-- JS | jquery plugin collection for this theme -->
     <script src="js/jquery-plugin-collection.js"></script>
 
+    <!-- Revolution Slider 5.x SCRIPTS -->
+    <script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
+    <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>   
     
-
 </head>
-
-
-<body class="boxed-layout pb-40 pt-sm-0">
-    <div id="wrapper">
-        <!-- preloader -->
-        <div id="preloader">
-            <div id="spinner">
-                <img src="images/preloaders/1.gif" alt="">
-            </div>
-            <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
-        </div>
-        <!-- end preloader -->
-        
-        <!-- Header -->
-        <?php include 'include/menuTop.php'; ?>
-        <!-- end Header -->
-
-        <!-- Main-content -->
-        <div class="main-content">
-            <!-- Section: inner-header -->
-            <section class="inner-header divider parallax layer-overlay overlay-dark-5" data-bg-img="images/bg/bg7.jpg">
-                <?php include 'include/product/inner-header.php'; ?>
-            </section>
-
-            <section class="">
-                <div class="container">
-                    <div class="row">
-                        <?php include 'include/product/descript.php'; ?>
-                    </div>
-                </div>
-            </section>
-            <!-- Section: Features -->
-            <section id="features" class="bg-lighter">
-                <div class="container">
-                    <?php include 'include/product/features.php'; ?>
-                </div>
-            </section>
-        </div>
-        <!-- end main-content -->
-
-
-        <!-- Footer -->
-        <?php include 'include/footer.php'; ?>
-        <!-- End Footer -->  
     
-</div>
-<!-- end wrapper --> 
-    <!-- modal -->
-    <div class="modal modal-transparent fade active" id="myModal" role="dialog">
-    <div class="modal-dialog modal-lg">    
-      <!-- Modal content-->
-      <div class="no-background">          
-        <?php
+<body class="boxed-layout pb-40 pt-sm-0">
+    
+    
+    <a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
+
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+      <div class="modal-dialog">
+        <div class="loginmodal-container">            
+            <?php
             include ("cmForm.php");
-        ?>
-      </div>
-      
+            ?>
+        </div>
     </div>
   </div>
 
 
-<!-- Scripts --> 
-
-<!-- JS | Custom script for all pages --> 
-<script src="js/custom.js"></script>
-
-
-</body>
+    </body>
 </html>
+
+

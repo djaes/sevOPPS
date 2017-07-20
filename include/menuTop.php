@@ -12,7 +12,9 @@
                                <li><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> Accueil</a></li>
                                <li><a href="product.php"><i class="fa fa-flask" aria-hidden="true"></i> Principe Actif</a></li>
                                <li><a href="witness.php"><i class="fa fa-commenting" aria-hidden="true"></i> Témoignages</a></li>
-                               <li><a id="myBtn" a data-toggle="modal" href="#myModal" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Commander</a></li>
+                               <li>
+                                   <a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Commander</a>
+                               </li>
                            </ul>
                         </div>
                     </div>        
