@@ -8,9 +8,7 @@
 
                           <h3 class="text-uppercase letter-space-1 mt-10">Riding on <span class="text-theme-colored">Trainer</span></h3>
 
-                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, alias eos dolores unde aliquid quidem soluta ducimus quod numquam veniam obcaecati ratione, tempora quibusdam </p>
-
-                          <p>aperiam voluptates id, in consectetur amet quas voluptatem, accusantium? In dignissimos eveniet voluptatem accusamus explicabo sapiente, similique minus? Dolor, vel minima.</p>
+                           <p><?php echo $wintnes4; ?></p>
 
 
                         </div>
@@ -29,9 +27,7 @@
 
                           <h3 class="text-uppercase letter-space-1 mt-10">Start your <span class="text-theme-colored">training</span></h3>
 
-                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, alias eos dolores unde aliquid quidem soluta ducimus quod numquam veniam obcaecati ratione, tempora quibusdam </p>
-
-                          <p>aperiam voluptates id, in consectetur amet quas voluptatem, accusantium? In dignissimos eveniet voluptatem accusamus explicabo sapiente, similique minus? Dolor, vel minima.</p>
+                           <p><?php echo $wintnes5; ?></p>
                           </div>
                         </div>
                     </div>
@@ -45,9 +41,7 @@
 
                           <h3 class="text-uppercase letter-space-1 mt-10">competitive <span class="text-theme-colored">swimming</span></h3>
 
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, alias eos dolores unde aliquid quidem soluta ducimus quod numquam veniam obcaecati ratione, tempora quibusdam </p>
-
-                          <p>aperiam voluptates id, in consectetur amet quas voluptatem, accusantium? In dignissimos eveniet voluptatem accusamus explicabo sapiente, similique minus? Dolor, vel minima.</p>
+                          <p><?php echo $wintnes6; ?></p>
 
 
                         </div>

@@ -24,7 +24,7 @@
                                         <div class="display-table-cell">
                                             <h4 class="text-uppercase text-white">Poudre de Nopal</h4>
                                             <div class="text-gray-lightgray">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam laborum deserunt debitis fuga aliquid dolor ullam sed.</p>
+                                                <p><?php echo $homeDescripText1; ?></p>
                                             </div>
                                         </div>
                                     </div>
@@ -49,7 +49,7 @@
                                         <div class="display-table-cell">
                                             <h4 class="text-uppercase text-white">Thé vert</h4>
                                                 <div class="text-gray-lightgray">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam laborum deserunt debitis fuga aliquid dolor ullam sed.</p>
+                                                    <p><?php echo $homeDescripText2; ?></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -74,7 +74,7 @@
                                         <div class="display-table-cell">
                                             <h4 class="text-uppercase text-white">Cétone de Framboise</h4>
                                             <div class="text-gray-lightgray">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam laborum deserunt debitis fuga aliquid dolor ullam sed.</p>
+                                                <p><?php echo $homeDescripText3; ?></p>
                                             </div>
                                         </div>
                                     </div>

@@ -5,9 +5,9 @@
                             <div class="rev_slider" data-version="5.0">
                                 <ul>
                                     <!-- SLIDE 1 -->
-                                    <li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/slide/product-slide1920X1280.jpg" data-rotate="0" data-saveperformance="off" data-title="Web Show" data-description="">
+                                    <li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="<?php echo $homeSlideImg; ?>" data-rotate="0" data-saveperformance="off" data-title="Web Show" data-description="">
                                         <!-- MAIN IMAGE -->
-                                        <img src="images/1920x1280.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="6" data-no-retina>
+                                        <img src="<?php echo $homeSlideImg; ?>"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="6" data-no-retina>
                                         <!-- LAYERS --> 
                 
                                         <!-- LAYER NR. 1 -->

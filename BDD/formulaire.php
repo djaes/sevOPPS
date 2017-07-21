@@ -1,7 +1,7 @@
-<META HTTP-EQUIV="Refresh" CONTENT="2;URL=../thank.php"></META>
+<META HTTP-EQUIV="Refresh" CONTENT="1;URL=../thank.php"></META>
 
     <?php
-    // ajout bdd
+    
     //connection
     $hostname_dbprotect = "localhost"; // nom de votre serveur
     $database_dbprotect = "db691158213"; // nom de votre base de données
@@ -12,7 +12,7 @@
     if (mysqli_connect_errno()) {
         printf("Échec de la connexion : %s\n", mysqli_connect_error());
     }
-
+    // ajout bdd
     $nom=mysqli_real_escape_string($dbprotect,$_POST["form_name"]);
     $prenom=mysqli_real_escape_string($dbprotect,$_POST["form_prenom"]);
     $adresse=mysqli_real_escape_string($dbprotect,$_POST["form_adress"]);

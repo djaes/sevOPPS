@@ -43,7 +43,7 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- JS | jquery plugin collection for this theme -->
     <script src="js/jquery-plugin-collection.js"></script>
-
+    <?php include 'include/var.php'; ?>
 </head>
 <body class="">
 <div id="wrapper">
@@ -120,7 +120,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <p class="mb-0">Copyright ©2016 ThemeMascot. All Rights Reserved</p>
+          <p class="mb-0"><?php echo $copyright; ?></p>
         </div>
       </div>
     </div>

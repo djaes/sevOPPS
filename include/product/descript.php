@@ -1,12 +1,12 @@
 <div class="col-md-4">
     <div class="">
-        <img src="images/product/anaca3-ventre-plat-univers.png" alt="">
+        <img src="<?php echo $productImgDescript; ?>" alt="">
     </div>
 </div>
 <div class="col-md-4">
-  <h3>Jonathon Alex</h3>
-  <h5 class="text-theme-colored">GYM Expart</h5>
-  <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi modi magni rem hic eum voluptatibus ratione cum, velit deleniti animi, dolor excepturi ex minima unde, rerum exercitationem molestiae cumque asperiores possimus fugit? Totam odit, sed quasi repellat libero blanditiis excepturi nemo voluptas ipsa quam et maxime.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi modi magni rem hic eum voluptatibus ratione cum, velit deleniti animi, dolor excepturi ex minima unde, rerum exercitationem molestiae cumque asperiores possimus fugit? Totam odit, sed quasi repellat libero blanditiis excepturi nemo voluptas ipsa quam et maxime.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi modi magni rem hic eum voluptatibus ratione cum, velit deleniti animi, dolor excepturi ex minima unde, rerum exercitationem molestiae cumque asperiores possimus fugit? Totam odit, sed quasi repellat libero blanditiis excepturi nemo voluptas ipsa quam et maxime.</p>
+  <h3>Bioactivfit</h3>
+  <h5 class="text-theme-colored">Slim minceur tous ca</h5>
+  <p class="text-justify"><?php echo $productTextDescript; ?></p>
 
 </div>
 <div class="col-md-4 pt-40" >

@@ -8,7 +8,7 @@
     </div>
     <div class="row">
         <div class="col-md-12">
-            <div class="col-md-5"><img  src="images/product/product_684X896.png" alt=""></div>
+            <div class="col-md-5"><img  src="<?php echo $homeProductImg; ?>" alt=""></div>
             <div class="col-md-7">
                 <div class="border-theme-colored border-5px p-40 pt-0">
                     <h2 class="text-uppercase">Les gélules <span class="text-theme-colored ml-10">Bioactivfit</span></h2>
@@ -27,7 +27,7 @@
                     <p><i class="fa fa-envelope-o text-theme-colored mr-10"></i> <?php echo $addrMail; ?><br>
                         <i class="fa fa-globe text-theme-colored mr-10"></i> <?php echo $addrSite; ?>
                     </p>               
-                    <a class="btn btn-dark btn-theme-colored btn-circled" onclick="javascript:open_infos();">Commande</a>
+                    
                     <!-- Trigger the modal with a button -->
                     <button type="button" class="btn btn-dark btn-theme-colored btn-circled" data-toggle="modal" data-target="#myModal">Commander Bioactivfit</button>
                 </div>
