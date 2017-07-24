@@ -25,13 +25,15 @@
     }
     #imc-calcul {
         border: 3px solid #abc502;
-    }
-    
+    }    
 }
 @media(max-width:991px){
     .imc-calcul {
         border: none ! important;
         width: -moz-available;
+    }
+    .display-min {
+        display: none;
     }
 }
 

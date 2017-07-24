@@ -24,12 +24,12 @@
                         Extrait de papaye<br>
                     </p>
                     <h4 class="font-weight-300 line-bottom mb-0"><strong>Contact</strong><br></h4>
-                    <p><i class="fa fa-envelope-o text-theme-colored mr-10"></i> <?php echo $addrMail; ?><br>
+                    <p style="font-size: 13px;"><i class="fa fa-envelope-o text-theme-colored mr-10"></i> <?php echo $addrMail; ?><br>
                         <i class="fa fa-globe text-theme-colored mr-10"></i> <?php echo $addrSite; ?>
                     </p>               
                     
                     <!-- Trigger the modal with a button -->
-                    <button type="button" class="btn btn-dark btn-theme-colored btn-circled" data-toggle="modal" data-target="#myModal">Commander Bioactivfit</button>
+                    <button type="button" class="btn btn-dark btn-theme-colored btn-circled" data-toggle="modal" data-target="#myModal">Commander</button>
                 </div>
             </div>
         </div>

@@ -150,31 +150,7 @@
     });
 });
 </script>
-    <script type="text/javascript">
-        function open_infos()
-		{
-		   /* width = 1000;
-			height = 500;
-
-			window.open('commandFormHoriz.html','CMD_Bioactivfit',' width='+width+', height='+height+'');*/
-			$("#form_commande").show();
-		}
-		var modal = document.getElementById('form_commande');
-		// Get the <span> element that closes the modal
-		var span = document.getElementsByClassName("close")[0];
-
-		// When the user clicks on <span> (x), close the modal
-		span.onclick = function() {
-			modal.style.display = "none";
-		}
-
-		// When the user clicks anywhere outside of the modal, close it
-		window.onclick = function(event) {
-			if (event.target == modal) {
-				modal.style.display = "none";
-			}
-		}
-    </script>
+    
 	
 </body>
 </html>

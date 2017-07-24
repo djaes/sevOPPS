@@ -33,7 +33,7 @@
                                           data-splitin="none" 
                                           data-splitout="none" 
                                           data-responsive_offset="on"
-                                          style="z-index: 5; white-space: nowrap; font-weight:600; border-right: 6px solid;cursor: pointer;" data-toggle="modal" data-target="#myModal">Commander le maintenant</div>
+                                          style="z-index: 5; white-space: nowrap; font-weight:600; border-right: 6px solid;cursor: pointer;" data-toggle="modal" data-target="#myModal">Commander maintenant</div>
 
                                         <!-- LAYER NR. 2 -->
                                         <div class="tp-caption tp-resizeme text-center text-white font-raleway bg-dark-transparent pl-30 pr-30 border-theme-colored no-background no-border" 

@@ -42,14 +42,14 @@
                 <p><?php echo $productFeatureText6; ?></p>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 display-min">
             <div class="icon-box text-center"> 
                 <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-xl" href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
                 <h4 class="icon-box-title mt-15 mb-10 text-uppercase"><strong>Extrait de papaye</strong></h4>
                 <p><?php echo $productFeatureText7; ?></p>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 display-min">
             <div class="icon-box text-center"> 
                 <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-xl" href="#"> <i class="fa fa-universal-access" aria-hidden="true"></i></a>
                 <h4 class="icon-box-title mt-15 mb-10 text-uppercase"><strong>La combinaison des meilleurs elements</strong></h4>
