@@ -8,14 +8,14 @@
     </div>
     <div class="row">
         <div class="col-md-12">
-            <div class="col-md-5"><img  src="<?php echo $homeProductImg; ?>" alt=""></div>
+            <div class="col-md-5"><img style="max-height: 550px;" src="<?php echo $homeProductImg; ?>" alt=""></div>
             <div class="col-md-7">
                 <div class="border-theme-colored border-5px p-40 pt-0">
                     <h2 class="text-uppercase">Les gélules <span class="text-theme-colored ml-10">Bioactivfit</span></h2>
                     <h4 class="text-uppercase letter-space-3">Slim Perte de poids</h4>
                     <p>Le thé vert favorise l'élimination rénale de l'eau et contibue a l'oxydation des graisses.</p>
                     <h4 class="font-weight-300 line-bottom m-0">Ingredients</h4>
-                    <p>Poudre de Guarana
+                    <p>Poudre de Guarana<br>
                         Extrait de Thé vert<br>
                         Poudre de Nopal<br>
                         Cétone de Framboise<br>

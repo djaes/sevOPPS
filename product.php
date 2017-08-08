@@ -43,9 +43,7 @@
     <script src="js/jquery-ui.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- JS | jquery plugin collection for this theme -->
-    <script src="js/jquery-plugin-collection.js"></script>
-
-    
+    <script src="js/jquery-plugin-collection.js"></script>  
 
 </head>
 
@@ -68,10 +66,9 @@
         <!-- Main-content -->
         <div class="main-content">
             <!-- Section: inner-header -->
-            <section class="inner-header divider parallax layer-overlay overlay-dark-5" data-bg-img="images/bg/bg7.jpg">
-                <?php include 'include/product/inner-header.php'; ?>
-            </section>
-
+        <section class="inner-header divider parallax layer-overlay overlay-dark-4" data-bg-img="images/services/large.jpg">
+            <?php include 'include/witness/inner-header.php'; ?>
+        </section>
             <section class="">
                 <div class="container">
                     <div class="row">

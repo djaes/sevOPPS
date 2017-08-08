@@ -33,31 +33,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="card effect__hover">
-                        <div class="card__front bg-theme-colored">
-                            <div class="card__text">
-                                <div class="icon-box mb-0 mt-0 p-0"> <img class="img-responsive img-fullwidth" src="images/descript/thea_sinensis.jpg" alt="">
-                                    <h3 class="icon-box-title text-uppercase text-white letter-space-2">Thé vert</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card__back bg-black">
-                            <div class="card__text">
-                                <div class="display-table-parent p-30">
-                                    <div class="display-table">
-                                        <div class="display-table-cell">
-                                            <h4 class="text-uppercase text-white">Thé vert</h4>
-                                                <div class="text-gray-lightgray">
-                                                    <p><?php echo $homeDescripText2; ?></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                
                 <div class="col-sm-4">
                     <div class="card effect__hover">
                         <div class="card__front bg-theme-colored">
@@ -74,7 +50,7 @@
                                         <div class="display-table-cell">
                                             <h4 class="text-uppercase text-white">Cétone de Framboise</h4>
                                             <div class="text-gray-lightgray">
-                                                <p><?php echo $homeDescripText3; ?></p>
+                                                <p><?php echo $homeDescripText2; ?></p>
                                             </div>
                                         </div>
                                     </div>
@@ -83,6 +59,31 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-sm-4">
+                    <div class="card effect__hover">
+                        <div class="card__front bg-theme-colored">
+                            <div class="card__text">
+                                <div class="icon-box mb-0 mt-0 p-0"> <img class="img-responsive img-fullwidth" src="images/descript/thea_sinensis.jpg" alt="">
+                                    <h3 class="icon-box-title text-uppercase text-white letter-space-2">Thé vert</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__back bg-black">
+                            <div class="card__text">
+                                <div class="display-table-parent p-30">
+                                    <div class="display-table">
+                                        <div class="display-table-cell">
+                                            <h4 class="text-uppercase text-white">Thé vert</h4>
+                                                <div class="text-gray-lightgray">
+                                                    <p><?php echo $homeDescripText3; ?></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
     </div>

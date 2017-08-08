@@ -15,26 +15,26 @@
         switch (true) {
                 case (imc <= 18.0) :
                     document.getElementById('imcSituation').innerHTML = "Maigreur ou dénutrition";
-                    document.getElementById('imcSituation_img').src = "images/IMC/maigre.png";
+                    document.getElementById('imcSituation_img').src = "images/IMC/IMC-18.png";
                     break;
                 case (imc <= 25.0):
                     document.getElementById('imcSituation').innerHTML = "Corpulence normale";
-                    document.getElementById('imcSituation_img').src = "images/IMC/ideal.png";
+                    document.getElementById('imcSituation_img').src = "images/IMC/imc-ideal.png";
                     break;
                 case (imc <= 30.0):
                     document.getElementById('imcSituation').innerHTML = "Surpoids";
-                    document.getElementById('imcSituation_img').src = "images/IMC/surpoid.png";
+                    document.getElementById('imcSituation_img').src = "images/IMC/imc-25-30.png";
                     break;
                 case (imc <= 35.0):
                     document.getElementById('imcSituation').innerHTML = "Obésité modérée";
-                    document.getElementById('imcSituation_img').src = "images/IMC/obesite.png";
+                    document.getElementById('imcSituation_img').src = "images/IMC/imc-30-35.png";
                     break;
                 case (imc <= 40.0):
-                    document.getElementById('imcSituation_img').src = "images/IMC/obesite-severe.png";
+                   document.getElementById('imcSituation_img').src = "images/IMC/imc-35+.png";
                     document.getElementById('imcSituation').innerHTML = "Obésité élevé";
                     break;
                 default:
-                    document.getElementById('imcSituation_img').src = "images/IMC/obesite-massive.png";
+                    document.getElementById('imcSituation_img').src = "images/IMC/imc-35+.png";
                     document.getElementById('imcSituation').innerHTML = "Obésite massive ";
                     break; 
                }

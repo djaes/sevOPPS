@@ -67,11 +67,10 @@
 
   <!-- main-content -->
     <div class="main-content">
-        <!-- Section: inner-header -->
-        <section class="inner-header divider parallax layer-overlay overlay-dark-5" data-bg-img="images/witness/inert.jpg">
+       <!-- Section: inner-header -->
+        <section class="inner-header divider parallax layer-overlay overlay-dark-4" data-bg-img="images/services/large.jpg">
             <?php include 'include/witness/inner-header.php'; ?>
         </section>
-        
         <!-- Section: witness -->
         <section id="witness">
             <div class="container">

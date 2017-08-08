@@ -10,7 +10,7 @@
                                         <img src="<?php echo $homeSlideImg; ?>"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="6" data-no-retina>
                                         <!-- LAYERS --> 
                 
-                                        <!-- LAYER NR. 1 -->
+                                        <!-- 
                                         <div class="tp-caption tp-resizeme text-center text-white font-raleway bg-dark-transparent pl-30 pr-30 border-theme-colored no-background no-border" 
                                           id="rs-1-layer-1"
 
@@ -35,7 +35,7 @@
                                           data-responsive_offset="on"
                                           style="z-index: 5; white-space: nowrap; font-weight:600; border-right: 6px solid;cursor: pointer;" data-toggle="modal" data-target="#myModal">Commander maintenant</div>
 
-                                        <!-- LAYER NR. 2 -->
+                                        
                                         <div class="tp-caption tp-resizeme text-center text-white font-raleway bg-dark-transparent pl-30 pr-30 border-theme-colored no-background no-border" 
                                           id="rs-1-layer-2"
 
@@ -59,7 +59,7 @@
                                           data-splitout="none" 
                                           data-responsive_offset="on"
                                           style="z-index: 5; white-space: nowrap; font-weight:600; border-right: 6px solid;cursor: pointer;" data-toggle="modal" data-target="#myModal">Et recevez un cadeau</div>
-                                        
+                                        -->
                                         <div class="tp-caption tp-resizeme text-center text-white font-raleway bg-dark-transparent pl-30 pr-30 border-theme-colored no-border" 
                                           id="rs-1-layer-2"
                                             data-x="['middle']"
@@ -82,6 +82,7 @@
                                             data-splitout="none" 
                                             data-responsive_offset="on"
                                             style="z-index: 5; white-space: nowrap; font-weight:600; border-right: 6px solid;cursor: pointer;" data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i> COMMANDER MAINTENANT</div>
+                                        
                                         
                                         
                                       </li>

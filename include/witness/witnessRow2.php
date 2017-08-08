@@ -6,7 +6,7 @@
 
                         <div class="caption"> <img src="images/rating/5.png" alt="...">
 
-                          <h3 class="text-uppercase letter-space-1 mt-10">Riding on <span class="text-theme-colored">Trainer</span></h3>
+                          <h3 class="text-uppercase letter-space-1 mt-10">“J’ai perdu mes kilos en trop sans effort…</h3>
 
                            <p><?php echo $wintnes4; ?></p>
 
@@ -25,7 +25,7 @@
 
                        <div class="caption"> <img src="images/rating/4.png" alt="...">
 
-                          <h3 class="text-uppercase letter-space-1 mt-10">Start your <span class="text-theme-colored">training</span></h3>
+                          <h3 class="text-uppercase letter-space-1 mt-10">“Je suis une autre personne…</h3>
 
                            <p><?php echo $wintnes5; ?></p>
                           </div>
@@ -39,7 +39,7 @@
 
                        <div class="caption"> <img src="images/rating/5.png" alt="...">
 
-                          <h3 class="text-uppercase letter-space-1 mt-10">competitive <span class="text-theme-colored">swimming</span></h3>
+                          <h3 class="text-uppercase letter-space-1 mt-10">“comming soon</h3>
 
                           <p><?php echo $wintnes6; ?></p>
 

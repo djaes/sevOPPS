@@ -78,7 +78,7 @@
             </section>
             
             <!-- Section: Descript -->   
-            <section id="descript" class=" parallax layer-overlay overlay-white" data-bg-img="images/1920x1280.png">
+            <section id="descript" class=" parallax layer-overlay overlay-white" >
                 <?php include 'include/home/descript.php'; ?>
                 
                 

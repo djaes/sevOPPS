@@ -1,4 +1,4 @@
-<footer class="footer divider layer-overlay overlay-dark" data-bg-img="images/1920X1280.png">
+<footer class="footer divider layer-overlay overlay-dark" data-bg-img="images/services/fotolia_131553281.jpg">
     <div class="container pt-100 pb-30">
         <div class="row trust-small text-center">
             <div class="col-md-4"><i class="fa fa-shield" aria-hidden="true" style="font-size: 8em;"></i><br> Paiement <span>sécurisé</span><hr></div>

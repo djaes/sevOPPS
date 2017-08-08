@@ -7,6 +7,8 @@
   <h3>Bioactivfit</h3>
   <h5 class="text-theme-colored">Slim minceur tous ca</h5>
   <p class="text-justify"><?php echo $productTextDescript; ?></p>
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-dark btn-theme-colored btn-circled" data-toggle="modal" data-target="#myModal">Commander</button>
 
 </div>
 <div class="col-md-4 pt-40" >
