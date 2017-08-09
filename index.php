@@ -52,7 +52,6 @@
     <!-- Revolution Slider 5.x SCRIPTS -->
     <script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
     <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="http://www.w3schools.com/lib/w3data.js"></script>   
     
 </head>
     
@@ -91,7 +90,7 @@
             </section> 
             
             <!-- Section: temoignages -->
-            <section id="witness" class="divider parallax layer-overlay overlay-white"  data-bg-img="http://placehold.it/1920x1280" >
+            <section id="witness" class="divider parallax layer-overlay overlay-white"  >
                 <?php include 'include/home/witness.php'; ?>
             </section>
 
@@ -133,8 +132,8 @@
     <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
           (Load Extensions only on Local File Systems ! 
            The following part can be removed on Server for On Demand Loading) --> 
-    <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script> 
-    <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script> 
+     
+   
     <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script> 
     <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script> 
     <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script> 

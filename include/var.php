@@ -1,7 +1,7 @@
 <?php
 $addrMail = "toto@gmail.com";
 $addrSite = "Bioactivfit.com";
-$copyright = "Copyright &copy;2070 apres moi .  ThemeMascot. All Rights Reserved";
+$copyright = "Copyright &copy;2070 apres moi . All Rights Reserved";
 $logoPath ="images/logo-favicon/logo_500X150.png";
 $partenaireLink1 = "http://www.google.fr";
 
@@ -9,9 +9,9 @@ $partenaireLink1 = "http://www.google.fr";
 //ACCUEILLLL
 $homeSlideImg = "images/slide/slide1.png";
 $homeProductImg = "images/product/bioactivfit_684X896.png";
-$homeDescripText1 = "La poudre de nopal donne des fruits qui ne sont autres que les fameuses figues de Barbarie, et se voit paré de feuilles bienfaitrices pour les équilibres de l'organisme";
-$homeDescripText2 = "Les cétones de framboise sont utilisées pour favoriser la perte de poids, elles activent la combustion des graisses mises en réserve par l’organisme.";
-$homeDescripText3 = "Connu pour être l'un des meilleurs antioxydants, le thé vert renferme une concentration très importante de nombreux polyphénols ";
+$poudreNopalDescript = "La poudre de nopal donne des fruits qui ne sont autres que les fameuses figues de Barbarie, et se voit paré de feuilles bienfaitrices pour les équilibres de l'organisme";
+$cetonneFramboiseDescript = "Les cétones de framboise sont utilisées pour favoriser la perte de poids, elles activent la combustion des graisses mises en réserve par l’organisme.";
+$theVertDescript = "Connu pour être l'un des meilleurs antioxydants, le thé vert renferme une concentration très importante de nombreux polyphénols ";
 
 
 
@@ -19,20 +19,17 @@ $homeDescripText3 = "Connu pour être l'un des meilleurs antioxydants, le thé v
 $productImgInnerHeader = "images/services/fotolia_86675680.jpg";
 $productImgDescript = "images/product/bioactivfit_684X896.png";
 $productTextDescript = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi modi magni rem hic eum voluptatibus ratione cum, velit deleniti animi, dolor excepturi ex minima unde, rerum exercitationem molestiae cumque asperiores possimus fugit? Totam odit, sed quasi repellat libero blanditiis excepturi nemo voluptas ipsa quam et maxime.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi modi magni rem hic eum voluptatibus ratione cum, velit deleniti animi, dolor excepturi ex minima unde, rerum exercitationem molestiae cumque asperiores possimus fugit? Totam odit, sed quasi repellat libero blanditiis excepturi nemo voluptas ipsa quam et maxime.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi modi magni rem hic eum voluptatibus ratione cum, velit deleniti animi, dolor excepturi ex minima unde, rerum exercitationem molestiae cumque asperiores possimus fugit? Totam odit, sed quasi repellat libero blanditiis excepturi nemo voluptas ipsa quam et maxime.";
-$productFeatureText1 = "Le guarana est un coupe faim naturel, bien plus intéressant que la cigarette avec moins d’effets secondaires, et permet de réguler le cycle de la faim s’il est bien utilisé.";
-$productFeatureText2 = $homeDescripText3;
-$productFeatureText3 = $homeDescripText1;
-$productFeatureText4 = $homeDescripText2;
-$productFeatureText5 = "Fruits diurétiques, l’ananas et la papaye possèdent une action drainante. L’ananas renferme une enzyme, labromélaïne, aux propriétés lipolytiques. La papaye permet d’affiner la silhouette et de lutter contre la cellulite.";
-$productFeatureText6 = "Le marc de raisin favorise le drainage et élimine les graisses localisées.";
-$productFeatureText7 = "Les forts taux de vitamine C et de lycopène contenus dans la papaye peuvent améliorer la santé du cœur et réduire le risque de maladies cardiovasculaires.";
-$productFeatureText8 = "Allié minceur, Bioactivfit agit sur la thermogénèse, l’excédent d’eau, le contrôle de l’appétit et contribue à l’élimination des graisses localisées.";
+$poudreGuaranaDescript = "Le guarana est un coupe faim naturel, bien plus intéressant que la cigarette avec moins d’effets secondaires, et permet de réguler le cycle de la faim s’il est bien utilisé.";
+
+$extraitAnanasDescript = "Fruits diurétiques, l’ananas et la papaye possèdent une action drainante. L’ananas renferme une enzyme, labromélaïne, aux propriétés lipolytiques. La papaye permet d’affiner la silhouette et de lutter contre la cellulite.";
+$marcRaisinDescript = "Le marc de raisin favorise le drainage et élimine les graisses localisées.";
+$extraitPapayeDescript = "Les forts taux de vitamine C et de lycopène contenus dans la papaye peuvent améliorer la santé du cœur et réduire le risque de maladies cardiovasculaires.";
+$productFeatureDescript = "Allié minceur, Bioactivfit agit sur la thermogénèse, l’excédent d’eau, le contrôle de l’appétit et contribue à l’élimination des graisses localisées.";
 
 
 //TEMOIGNAGES
 $witnessImgInnerHeader = "images/witness/inert.jpg";
-$wintnes1 = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, alias eos dolores unde aliquid quidem soluta ducimus quod numquam veniam obcaecati ratione, tempora quibusdam
-aperiam voluptates id, in consectetur amet quas voluptatem, accusantium? In dignissimos eveniet voluptatem accusamus explicabo sapiente, similique minus? Dolor, vel minima.";
+$wintnes1 = "J'ai deja testé plusieurs gélules pour maigrir mais elles n'ont pas marché je n'ai pas perdu 1 gramme !!! je teste depuis 1 mois votre gélule Bioactivfit avec le Guarana pour coupe faim et je suis vraiment étonnée des résultats sans rien changer à mes habitudes alimentaires. merci encore je recommande vraiment.";
 $wintnes2 = "Voilà presque 12 ans que je
 travaille dans une boulangerie,
 alors forcément, ce ne sont
@@ -89,8 +86,7 @@ prendre soin de moi. Je suis une
 autre personne. C’est merveilleux,
 c’est vraiment un super produit
 ce Bioactivfit !";
-$wintnes6 = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, alias eos dolores unde aliquid quidem soluta ducimus quod numquam veniam obcaecati ratione, tempora quibusdam
-aperiam voluptates id, in consectetur amet quas voluptatem, accusantium? In dignissimos eveniet voluptatem accusamus explicabo sapiente, similique minus? Dolor, vel minima.";
+$wintnes6 = "Après seulement une semaine je sais pas si c'est seulement dans ma tete mais je me sens mieux deja . du tonus et meme envie de ressortir mon velo du garage .Je suis trés curieux de voir le resultat apres deux mois mais ca commence bien .";
 
 
 ?>

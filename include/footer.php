@@ -1,5 +1,5 @@
 <footer class="footer divider layer-overlay overlay-dark" data-bg-img="images/services/fotolia_131553281.jpg">
-    <div class="container pt-100 pb-30">
+    <div class="container pt-50 pb-30">
         <div class="row trust-small text-center">
             <div class="col-md-4"><i class="fa fa-shield" aria-hidden="true" style="font-size: 8em;"></i><br> Paiement <span>sécurisé</span><hr></div>
             <div class="col-md-4"><i class="fa fa-truck" aria-hidden="true" style="font-size: 8em;"></i><br> Livraison <span>en 48h</span><hr></div>
@@ -36,6 +36,9 @@
     <div class="container-fluid copy-right p-20">
       <div class="row text-center">
         <div class="col-md-12">
+            <p>Pour votre santé, mangez au moins cinq fruits et légumes par jour -<a href="http://www.mangerbouger.fr/">www.mangerbouger.fr</a><br>
+Bioactivfit est une marque de compléments alimentaires et dérivés. Les résultats individuels peuvent varier.<br>
+Les produits doivent être utilisés dans le cadre d'un mode de vie sain et ne pas être utilisés comme substituts d'un régime alimentaire varié et équilibré.</p>
           <p class="font-11 text-white m-0"><?php echo $copyright; ?></p>
         </div>
       </div>

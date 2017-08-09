@@ -1,60 +1,204 @@
 <div class="section-content">
     <div class="row multi-row-clearfix">
-        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-            <div class="icon-box text-center">
-                <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-xl" href="#"> <i class="fa fa-cutlery" aria-hidden="true"></i></a>
-                <h4 class="Personal trainer text-uppercase"><strong>Poudre de Guarana</strong></h4>
-                <p><?php echo $productFeatureText1; ?></p>
+        <div class="col-sm-3 p-15">
+            <div class="card effect__hover">
+                <div class="card__front bg-theme-colored">
+                    <div class="card__text">
+                        <div class="icon-box mb-0 mt-0 p-0"> <img class="img-responsive img-fullwidth" src="images/descript/nopal.jpg" alt="">
+                            <h3 class="icon-box-title text-uppercase text-white letter-space-2">Poudre de Nopal</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__back bg-black">
+                    <div class="card__text">
+                        <div class="display-table-parent p-30">
+                            <div class="display-table">
+                                <div class="display-table-cell">
+                                    <h4 class="text-uppercase text-white">Poudre de Nopal</h4>
+                                    <div class="text-gray-lightgray">
+                                        <p><?php echo $poudreNopalDescript; ?></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-            <div class="icon-box text-center"> 
-                <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-xl" href="#"> <i class="fa fa-cogs" aria-hidden="true"></i></a>
-                <h4 class="icon-box-title mt-15 mb-10 text-uppercase"><strong>Extrait de Thé vert</strong></h4>
-                <p><?php echo $productFeatureText2; ?></p>
+        <div class="col-sm-3 p-15">
+            <div class="card effect__hover">
+                <div class="card__front bg-theme-colored">
+                    <div class="card__text">
+                        <div class="icon-box mb-0 mt-0 p-0"> <img class="img-responsive img-fullwidth" src="images/descript/cetone-framboise.jpg" alt="">
+                            <h3 class="icon-box-title text-uppercase text-white letter-space-2">Cétone de Framboise</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__back bg-black">
+                    <div class="card__text">
+                        <div class="display-table-parent p-30">
+                            <div class="display-table">
+                                <div class="display-table-cell">
+                                    <h4 class="text-uppercase text-white">Cétone de Framboise</h4>
+                                    <div class="text-gray-lightgray">
+                                        <p><?php echo $cetonneFramboiseDescript; ?></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-            <div class="icon-box text-center"> 
-                <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-xl" href="#"> <i class="fa fa-heartbeat" aria-hidden="true"></i></a>
-                <h4 class="icon-box-title mt-15 mb-10 text-uppercase"><strong>Poudre de Nopal</strong></h4>
-                <p><?php echo $productFeatureText3; ?></p>
+        <div class="col-sm-3 p-15">
+            <div class="card effect__hover">
+                <div class="card__front bg-theme-colored">
+                    <div class="card__text">
+                        <div class="icon-box mb-0 mt-0 p-0"> <img class="img-responsive img-fullwidth" src="images/descript/thea_sinensis.jpg" alt="">
+                            <h3 class="icon-box-title text-uppercase text-white letter-space-2">Thé vert</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__back bg-black">
+                    <div class="card__text">
+                        <div class="display-table-parent p-30">
+                            <div class="display-table">
+                                <div class="display-table-cell">
+                                    <h4 class="text-uppercase text-white">Thé vert</h4>
+                                        <div class="text-gray-lightgray">
+                                            <p><?php echo $theVertDescript; ?></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="col-sm-3 p-15">
+            <div class="card effect__hover">
+                <div class="card__front bg-theme-colored">
+                    <div class="card__text">
+                        <div class="icon-box mb-0 mt-0 p-0"> <img class="img-responsive img-fullwidth" src="images/descript/guarana-poudre.jpg" alt="">
+                            <h3 class="icon-box-title text-uppercase text-white letter-space-2">Poudre de Guarana</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__back bg-black">
+                    <div class="card__text">
+                        <div class="display-table-parent p-30">
+                            <div class="display-table">
+                                <div class="display-table-cell">
+                                    <h4 class="text-uppercase text-white">Poudre de Guarana</h4>
+                                        <div class="text-gray-lightgray">
+                                            <p><?php echo $poudreGuaranaDescript; ?></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="col-sm-3 p-15">
+            <div class="card effect__hover">
+                <div class="card__front bg-theme-colored">
+                    <div class="card__text">
+                        <div class="icon-box mb-0 mt-0 p-0"> <img class="img-responsive img-fullwidth" src="images/descript/ananas.jpg" alt="">
+                            <h3 class="icon-box-title text-uppercase text-white letter-space-2">Extrait d'ananas</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__back bg-black">
+                    <div class="card__text">
+                        <div class="display-table-parent p-30">
+                            <div class="display-table">
+                                <div class="display-table-cell">
+                                    <h4 class="text-uppercase text-white">Extrait d'ananas</h4>
+                                    <div class="text-gray-lightgray">
+                                        <p><?php echo $extraitAnanasDescript; ?></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-            <div class="icon-box text-center"> 
-                <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-xl" href="#"> <i class="fa fa-area-chart" aria-hidden="true"></i></a>
-                <h4 class="icon-box-title mt-15 mb-10 text-uppercase"><strong>Cétone de Framboise</strong></h4>
-                <p><?php echo $productFeatureText4; ?></p>
+        <div class="col-sm-3 p-15">
+            <div class="card effect__hover">
+                <div class="card__front bg-theme-colored">
+                    <div class="card__text">
+                        <div class="icon-box mb-0 mt-0 p-0"> <img class="img-responsive img-fullwidth" src="images/descript/marc-de-raisin.jpg" alt="">
+                            <h3 class="icon-box-title text-uppercase text-white letter-space-2">Marc de Raisin</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__back bg-black">
+                    <div class="card__text">
+                        <div class="display-table-parent p-30">
+                            <div class="display-table">
+                                <div class="display-table-cell">
+                                    <h4 class="text-uppercase text-white">Marc de Raisin</h4>
+                                    <div class="text-gray-lightgray">
+                                        <p><?php echo $marcRaisinDescript; ?></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-            <div class="icon-box text-center"> 
-                <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-xl" href="#"> <i class="fa fa-battery-full" aria-hidden="true"></i></a>
-                <h4 class="icon-box-title mt-15 mb-10 text-uppercase"><strong>Extrait d'Ananas</strong></h4>
-                <p><?php echo $productFeatureText5; ?></p>
+        <div class="col-sm-3 p-15">
+            <div class="card effect__hover">
+                <div class="card__front bg-theme-colored">
+                    <div class="card__text">
+                        <div class="icon-box mb-0 mt-0 p-0"> <img class="img-responsive img-fullwidth" src="images/descript/papaye.jpg" alt="">
+                            <h3 class="icon-box-title text-uppercase text-white letter-space-2">Extrait de papaye</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__back bg-black">
+                    <div class="card__text">
+                        <div class="display-table-parent p-30">
+                            <div class="display-table">
+                                <div class="display-table-cell">
+                                    <h4 class="text-uppercase text-white">Extrait de papaye</h4>
+                                        <div class="text-gray-lightgray">
+                                            <p><?php echo $extraitPapayeDescript; ?></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="col-sm-3 p-15">
+        <div class="card effect__hover">
+            <div class="card__front bg-theme-colored">
+                <div class="card__text">
+                    <div class="icon-box mb-0 mt-0 p-0"> <img class="img-responsive img-fullwidth" src="images/descript/features.jpg" alt="">
+                        <h3 class="icon-box-title text-uppercase text-white letter-space-2">Les meilleurs elements</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="card__back bg-black">
+                <div class="card__text">
+                    <div class="display-table-parent p-30">
+                        <div class="display-table">
+                            <div class="display-table-cell">
+                                <h4 class="text-uppercase text-white">La combinaison des meilleurs elements</h4>
+                                <div class="text-gray-lightgray">
+                                    <p><?php echo $productFeatureDescript; ?></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-            <div class="icon-box text-center"> 
-                <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-xl" href="#"> <i class="fa fa-adjust" aria-hidden="true"></i> </a>
-                <h4 class="icon-box-title mt-15 mb-10 text-uppercase"><strong>Extrait de marc de raisin</strong></h4>
-                <p><?php echo $productFeatureText6; ?></p>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 display-min">
-            <div class="icon-box text-center"> 
-                <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-xl" href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
-                <h4 class="icon-box-title mt-15 mb-10 text-uppercase"><strong>Extrait de papaye</strong></h4>
-                <p><?php echo $productFeatureText7; ?></p>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 display-min">
-            <div class="icon-box text-center"> 
-                <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-xl" href="#"> <i class="fa fa-universal-access" aria-hidden="true"></i></a>
-                <h4 class="icon-box-title mt-15 mb-10 text-uppercase"><strong>La combinaison des meilleurs elements</strong></h4>
-                <p><?php echo $productFeatureText8; ?></p>
-            </div>
-        </div>
+    </div>
     </div>
 </div>

@@ -1,11 +1,13 @@
 <div class="col-md-4">
     <div class="">
-        <img src="<?php echo $productImgDescript; ?>" alt="">
+        <a href="#" data-toggle="modal" data-target="#myModal" class="no-mobile" >
+            <img src="<?php echo $productImgDescript; ?>" alt="">
+        </a>
     </div>
 </div>
 <div class="col-md-4">
-  <h3>Bioactivfit</h3>
-  <h5 class="text-theme-colored">Slim minceur tous ca</h5>
+  <h3 class="text-theme-colored">Bioactivfit</h3>
+  <h5 >Slim minceur tous ca</h5>
   <p class="text-justify"><?php echo $productTextDescript; ?></p>
     <!-- Trigger the modal with a button -->
     <button type="button" class="btn btn-dark btn-theme-colored btn-circled" data-toggle="modal" data-target="#myModal">Commander</button>

@@ -67,7 +67,9 @@
         <div class="main-content">
             <!-- Section: inner-header -->
         <section class="inner-header divider parallax layer-overlay overlay-dark-4" data-bg-img="images/services/large.jpg">
+            <a href="#" data-toggle="modal" data-target="#myModal" class="no-mobile" >
             <?php include 'include/witness/inner-header.php'; ?>
+            </a>
         </section>
             <section class="">
                 <div class="container">

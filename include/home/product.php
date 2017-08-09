@@ -8,7 +8,9 @@
     </div>
     <div class="row">
         <div class="col-md-12">
-            <div class="col-md-5"><img style="max-height: 550px;" src="<?php echo $homeProductImg; ?>" alt=""></div>
+            <div class="col-md-5"><a href="#" data-toggle="modal" data-target="#myModal" class="no-mobile" >
+                <img style="max-height: 550px;" src="<?php echo $homeProductImg; ?>" alt="">
+                </a></div>
             <div class="col-md-7">
                 <div class="border-theme-colored border-5px p-40 pt-0">
                     <h2 class="text-uppercase">Les gélules <span class="text-theme-colored ml-10">Bioactivfit</span></h2>

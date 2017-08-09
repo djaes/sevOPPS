@@ -24,7 +24,7 @@
                                         <div class="display-table-cell">
                                             <h4 class="text-uppercase text-white">Poudre de Nopal</h4>
                                             <div class="text-gray-lightgray">
-                                                <p><?php echo $homeDescripText1; ?></p>
+                                                <p><?php echo $poudreNopalDescript; ?></p>
                                             </div>
                                         </div>
                                     </div>
@@ -50,7 +50,7 @@
                                         <div class="display-table-cell">
                                             <h4 class="text-uppercase text-white">Cétone de Framboise</h4>
                                             <div class="text-gray-lightgray">
-                                                <p><?php echo $homeDescripText2; ?></p>
+                                                <p><?php echo $cetonneFramboiseDescript; ?></p>
                                             </div>
                                         </div>
                                     </div>
@@ -75,7 +75,7 @@
                                         <div class="display-table-cell">
                                             <h4 class="text-uppercase text-white">Thé vert</h4>
                                                 <div class="text-gray-lightgray">
-                                                    <p><?php echo $homeDescripText3; ?></p>
+                                                    <p><?php echo $theVertDescript; ?></p>
                                                 </div>
                                             </div>
                                         </div>

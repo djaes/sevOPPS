@@ -39,7 +39,7 @@
 
                        <div class="caption"> <img src="images/rating/5.png" alt="...">
 
-                          <h3 class="text-uppercase letter-space-1 mt-10">“comming soon</h3>
+                          <h3 class="text-uppercase letter-space-1 mt-10">“Envie de ressortir mon velo du garage ... </h3>
 
                           <p><?php echo $wintnes6; ?></p>
 
