@@ -1,8 +1,4 @@
-<section class="commandForm" >
-    <header>
-    
-    </header>
-    <form name="cmdForm" class="register-form form-transparent" method="post" action="BDD/formulaire.php"  style="margin: 20px;" onsubmit="return valider(this)">
+<form name="cmdForm" class="register-form form-transparent" method="post" action="BDD/formulaire.php"  style="margin: 20px;" onsubmit="return valider(this)">
     <div class="row">
 		<div class="form-group col-md-5 form-box" >
 			<div class="row">
@@ -84,7 +80,7 @@
     </label>
     <div class="form-group">
         <input type="submit" class="btn btn-dark btn-lg btn-block" value="Commander">
-        
+        <button type="button" class="btn btn-default " data-dismiss="modal" >Quitter</button>
     </div>
        </div>
        <div class="col-md-1">
@@ -92,6 +88,3 @@
 
     </div>
 </form>
-</section>
-
-<script src="js/checkForm.js"></script>

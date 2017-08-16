@@ -1,6 +1,12 @@
+
+
+
 * {
     
 }
+
+
+
 @media(min-width:1200px){
     .header {
         max-width: 100% !important;
@@ -29,11 +35,7 @@
     .modal-dialog {
         overflow-y: hidden !important;
     }
-    #product img, .descriptif img{
-    max-height: 300px !important;
-    margin-left: 30%;
-    margin-top: 30%;    
-    }
+    
 }
 @media(max-width:991px){
     .imc-calcul {
@@ -78,6 +80,7 @@
     float: right;
 }
 body {
+    
     background-color: #c7c7c7 !important;
     padding-right: 0 !important;
 }
@@ -106,8 +109,7 @@ footer {
     border-radius: 10px;
 }
 .shadow-menu {
-    background-color: #f7f7f7 !important;
-    box-shadow: 10px 0px 15px 3px #656565;
+    
 }
 .no-shadow{
     background-color: #f7f7f7;    
@@ -116,21 +118,10 @@ footer {
 #header ul{
     margin-right: 3px;
 }
-#header ul li a {
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1); 
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1); 
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1);
-    transition: all 200ms ease-in;
-    transform: scale(1);       
-}
 #header ul li a:hover{
     background: transparent;
     color: #ee7421;
     transform: scale(1.2);
-    
 }
 #header ul li a:active {
     
@@ -162,7 +153,6 @@ footer {
     width: 150px;
     max-height: 80px;
 }
-
 #opignon_row{
     margin-left: 0px;
 }
@@ -282,13 +272,12 @@ output {
 .cmdTarif {
     font-family: "Times New Roman", Times, serif;
 }
-#finalize  {
+.finalCmdBouton  {
     padding: 0;
     white-space: normal;
     font-size: 1.4em;
     font-weight: 300;
     line-height: 3em;
-    margin: auto;
     padding-bottom: 20px;
     padding-top: 20px;
 }
@@ -344,6 +333,11 @@ h3.box {
 	border: solid gray 1px; 
 	margin: 5px;
 }
+#product img, .descriptif img{
+    max-height: 300px !important;
+    margin-left: 30%;
+    margin-top: 30%;    
+    }
 
 
 .pay-box {
@@ -361,7 +355,10 @@ h3.box {
     font-weight: 500;
 }
 
-button {
+
+.bouton {
+    background-color: #abc502;
+    border-color: #abc502;
     font-size: 16px;
     padding: 10px 20px;
     border-radius: 25px;
@@ -369,10 +366,10 @@ button {
     height: 50px;
     text-align: center;
     border: 1px solid transparent;
-    
     text-transform: uppercase;
     background-color: #abc502;
     box-shadow: 0 50px 25px -25px #D1FF9C inset; 
+    transition:background 500ms ease,color 500ms ease,box-shadow 500ms ease;
     font-family: 'Bookman', serif !important;
     margin-left: 30%;
     -webkit-transition: all 200ms ease-in;
@@ -384,15 +381,26 @@ button {
     transition: all 200ms ease-in;
     transform: scale(1);       
 }
-button:hover {
+
+.bouton:hover {
     background-color: #ee7421;
     box-shadow: 0 50px 25px -25px #D1FF9C inset; 
     color: #000;
-    transform: scale(1.2);
-    font-weight:bold;
+    transform: scale(1.5);
+    
 }
-button:active {
+.bouton:active {
     transition: shadow 50ms ease;
     box-shadow: 1px 1px 10px black inset, 
                  0 1px 0 rgba( 255, 255, 255, 0.4);
+}
+
+.test {
+    background: linear-gradient( #ABC502, #D1FF9C);
+    transition: all 500ms ease-in-out 0s, box-shadow 5ms;
+}
+.test:hover {
+     border-color:  #768801;
+    
+    background: linear-gradient( #768801, #ABC502);  
 }

@@ -18,20 +18,7 @@ $theVertDescript = "Connu pour être l'un des meilleurs antioxydants, le thé ve
 //PRINCIPE ACTIF
 $productImgInnerHeader = "images/services/fotolia_86675680.jpg";
 $productImgDescript = "images/product/bioactivfit_684X896.png";
-$productTextDescript = "Elimination rénale et
-Oxydation des graisses. <br>
-Allié minceur, Bioactivfit agit sur la thermogénèse, l’excédent d’eau, le
-contrôle de l’appétit et contribue à l’élimination des graisses localisées.<br>
-Informations nutritionnelles<br>
-Pour 6 gélules :<br>
-- Poudre de guarana : 540 mg<br>
-- Extrait de thé vert : 420 mg<br>
-- Poudre de Nopal : 360 mg<br>
-- Extrait de cétone de framboise : 180 mg<br>
-- Extrait d’ananas : 180 mg<br>
-- Extrait de marc de raisin : 180 mg<br>
-- Extrait de papaye : 120 mg<br>
-";
+$productTextDescript = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi modi magni rem hic eum voluptatibus ratione cum, velit deleniti animi, dolor excepturi ex minima unde, rerum exercitationem molestiae cumque asperiores possimus fugit? Totam odit, sed quasi repellat libero blanditiis excepturi nemo voluptas ipsa quam et maxime.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi modi magni rem hic eum voluptatibus ratione cum, velit deleniti animi, dolor excepturi ex minima unde, rerum exercitationem molestiae cumque asperiores possimus fugit? Totam odit, sed quasi repellat libero blanditiis excepturi nemo voluptas ipsa quam et maxime.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi modi magni rem hic eum voluptatibus ratione cum, velit deleniti animi, dolor excepturi ex minima unde, rerum exercitationem molestiae cumque asperiores possimus fugit? Totam odit, sed quasi repellat libero blanditiis excepturi nemo voluptas ipsa quam et maxime.";
 $poudreGuaranaDescript = "Le guarana est un coupe faim naturel, bien plus intéressant que la cigarette avec moins d’effets secondaires, et permet de réguler le cycle de la faim s’il est bien utilisé.";
 
 $extraitAnanasDescript = "Fruits diurétiques, l’ananas et la papaye possèdent une action drainante. L’ananas renferme une enzyme, labromélaïne, aux propriétés lipolytiques. La papaye permet d’affiner la silhouette et de lutter contre la cellulite.";

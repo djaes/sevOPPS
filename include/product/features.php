@@ -14,7 +14,7 @@
                         <div class="display-table-parent p-30">
                             <div class="display-table">
                                 <div class="display-table-cell">
-                                    <h4 class="text-uppercase text-white">Poudre de Nopal</h4>
+                                    <h4 class="text-uppercase text-white">La poudre de Nopal</h4>
                                     <div class="text-gray-lightgray">
                                         <p><?php echo $poudreNopalDescript; ?></p>
                                     </div>
@@ -39,7 +39,7 @@
                         <div class="display-table-parent p-30">
                             <div class="display-table">
                                 <div class="display-table-cell">
-                                    <h4 class="text-uppercase text-white">Cétone de Framboise</h4>
+                                    <h4 class="text-uppercase text-white">La cétone de Framboise</h4>
                                     <div class="text-gray-lightgray">
                                         <p><?php echo $cetonneFramboiseDescript; ?></p>
                                     </div>
@@ -55,7 +55,7 @@
                 <div class="card__front bg-theme-colored">
                     <div class="card__text">
                         <div class="icon-box mb-0 mt-0 p-0"> <img class="img-responsive img-fullwidth" src="images/descript/thea_sinensis.jpg" alt="">
-                            <h3 class="icon-box-title text-uppercase text-white letter-space-2">Thé vert</h3>
+                            <h3 class="icon-box-title text-uppercase text-white letter-space-2">Extrait de thé vert</h3>
                         </div>
                     </div>
                 </div>
@@ -64,7 +64,7 @@
                         <div class="display-table-parent p-30">
                             <div class="display-table">
                                 <div class="display-table-cell">
-                                    <h4 class="text-uppercase text-white">Thé vert</h4>
+                                    <h4 class="text-uppercase text-white">Le thé vert</h4>
                                         <div class="text-gray-lightgray">
                                             <p><?php echo $theVertDescript; ?></p>
                                         </div>
@@ -89,7 +89,7 @@
                         <div class="display-table-parent p-30">
                             <div class="display-table">
                                 <div class="display-table-cell">
-                                    <h4 class="text-uppercase text-white">Poudre de Guarana</h4>
+                                    <h4 class="text-uppercase text-white">Le Guarana</h4>
                                         <div class="text-gray-lightgray">
                                             <p><?php echo $poudreGuaranaDescript; ?></p>
                                         </div>
@@ -114,7 +114,7 @@
                         <div class="display-table-parent p-30">
                             <div class="display-table">
                                 <div class="display-table-cell">
-                                    <h4 class="text-uppercase text-white">Extrait d'ananas</h4>
+                                    <h4 class="text-uppercase text-white"> L'ananas</h4>
                                     <div class="text-gray-lightgray">
                                         <p><?php echo $extraitAnanasDescript; ?></p>
                                     </div>
@@ -130,7 +130,7 @@
                 <div class="card__front bg-theme-colored">
                     <div class="card__text">
                         <div class="icon-box mb-0 mt-0 p-0"> <img class="img-responsive img-fullwidth" src="images/descript/marc-de-raisin.jpg" alt="">
-                            <h3 class="icon-box-title text-uppercase text-white letter-space-2">Marc de Raisin</h3>
+                            <h3 class="icon-box-title text-uppercase text-white letter-space-2">Extrait de marc de Raisin</h3>
                         </div>
                     </div>
                 </div>
@@ -139,7 +139,7 @@
                         <div class="display-table-parent p-30">
                             <div class="display-table">
                                 <div class="display-table-cell">
-                                    <h4 class="text-uppercase text-white">Marc de Raisin</h4>
+                                    <h4 class="text-uppercase text-white">Le marc de Raisin</h4>
                                     <div class="text-gray-lightgray">
                                         <p><?php echo $marcRaisinDescript; ?></p>
                                     </div>
@@ -164,7 +164,7 @@
                         <div class="display-table-parent p-30">
                             <div class="display-table">
                                 <div class="display-table-cell">
-                                    <h4 class="text-uppercase text-white">Extrait de papaye</h4>
+                                    <h4 class="text-uppercase text-white">la papaye</h4>
                                         <div class="text-gray-lightgray">
                                             <p><?php echo $extraitPapayeDescript; ?></p>
                                         </div>

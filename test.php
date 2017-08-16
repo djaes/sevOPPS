@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="fr">
+<head>
+    <!-- Meta Tags -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="description" content="SportsTrainer- Sports, Health, Gym & Fitness Personal Trainer HTML5 Theme" />
+    <meta name="keywords" content="building,business,construction,cleaning,transport,workshop" />
+    <meta name="author" content="ThemeMascot" />
+
+    <!-- Page Title -->
+    <title>Bioactivefit</title>
+
+    <!-- Favicon and Touch Icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="images/iconBioactivfit.png">    
+
+    <!-- Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/css-plugin-collections.css" rel="stylesheet"/>
+    
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    
+    <!-- CSS | menuzord megamenu skins -->
+    <link id="menuzord-menu-skins" href="css/menuzord-skins/menuzord-boxed.css" rel="stylesheet"/>
+    <!-- CSS | Main style file -->
+    <link href="css/style-main.css" rel="stylesheet" type="text/css">
+    <!-- CSS | Theme Color -->
+    <link href="css/colors/theme-skin-lemon.css" rel="stylesheet" type="text/css">
+    <!-- CSS | Preloader Styles -->
+    <link href="css/preloader.css" rel="stylesheet" type="text/css">
+    <!-- CSS | Custom Margin Padding Collection -->
+    <link href="css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
+    <!-- CSS | Responsive media queries -->
+    <link href="css/responsive.css" rel="stylesheet" type="text/css">
+
+
+    <!-- external javascripts -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- JS | jquery plugin collection for this theme -->
+    <script src="js/jquery-plugin-collection.js"></script>
+
+</head>
+
+
+<body class="boxed-layout pb-40 pt-sm-0" >
+<div id="wrapper">
+
+  <!-- preloader -->
+  <div id="preloader">
+    <div id="spinner">
+      <img src="images/preloaders/1.gif" alt="">
+    </div>
+    <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
+  </div>
+
+<div class="modal-header"><button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="lnr lnr-2x lnr-cross-circle orange"></i></span><span class="sr-only">Fermer</span></button><span id="modal-cart-title" class="modal-title">Produit ajouté au panier !</span></div><div class="modal-body"><div id="added" class="collapse in" aria-expanded="true" style=""><div class="row"><div class="col-xs-3 valign"><img id="cart-product-image" class="product-image img-responsive center-block" src="/Picture/anaca3-boutique/v2/perte-poids/anaca3-perte-poids.png" alt="Perte de poids"></div><div class="col-xs-9 valign"><span id="cart-product-name" class="p-title">Perte de poids</span><span id="cart-product-label-1">2 boîtes</span><br><span id="cart-product-price" class="fw500 p-price">54,10 €</span></div></div></div><div class="row c-content"><div class="col-xs-12 text-center fw600"><button id="show-cart" class="btn collapsed" data-toggle="collapse" data-target="#cart-content" aria-expanded="false"><span id="cart-nb-products">6</span> article(s) dans votre panier : <span id="cart-total-price">316,8 €</span>
+                            &nbsp;&nbsp;
+                            <i class="lnr lnr-2x lnr-chevron-down-circle"></i></button></div></div><div id="cart-content-sample"><div class="row hidden"><div class="col-xs-3 valign"><img class="product-image img-responsive center-block" src="/Picture/anaca3-boutique/v2/perte-poids/anaca3-perte-poids.png" alt="Anaca3 Perte de Poids"></div><div class="col-xs-7 valign"><span class="cc-title"></span><span class="fw600 cc-price"></span></div><div class="col-xs-2 text-center valign"><span class="supprimer-modal pointer orange" title="Supprimer du panier" data-qtt="" data-id=""><i class="lnr lnr-2x lnr-trash2 "></i></span></div></div></div><div class="collapse" id="cart-content" aria-expanded="false" style="height: 0px;"><div class="row"><div class="col-xs-3 valign"><img class="product-image img-responsive center-block" src="/Picture/anaca3-boutique/v2/perte-poids/anaca3-perte-poids.png" alt="Anaca3 Perte de Poids"></div><div class="col-xs-7 valign"><span class="cc-title">Perte de poids<br>2 boîtes</span><span class="fw600 cc-price">54,10 €</span></div><div class="col-xs-2 text-center valign"><span class="supprimer-modal pointer orange" title="Supprimer du panier" data-qtt="1" data-id="1001"><i class="lnr lnr-2x lnr-trash2 "></i></span></div></div><div class="row"><div class="col-xs-3 valign"><img class="product-image img-responsive center-block" src="/Picture/anaca3-boutique/v2/perte-poids/anaca3-perte-poids.png" alt="Anaca3 Perte de Poids"></div><div class="col-xs-7 valign"><span class="cc-title">Perte de poids<br>4 boîtes</span><span class="fw600 cc-price">100,40 €</span></div><div class="col-xs-2 text-center valign"><span class="supprimer-modal pointer orange" title="Supprimer du panier" data-qtt="1" data-id="1003"><i class="lnr lnr-2x lnr-trash2 "></i></span></div></div><div class="row"><div class="col-xs-3 valign"><img class="product-image img-responsive center-block" src="/Picture/anaca3-boutique/v2/gift/product-gift.png?v=1.0" alt="Cadeau surprise dans votre colis"></div><div class="col-xs-7 valign"><span class="cc-title">Cadeau surprise</span><span class="fw600 cc-price">OFFERT</span></div><div class="col-xs-2 text-center valign"></div></div><div class="row"><div class="col-xs-3 valign"><img class="product-image img-responsive center-block" src="/Picture/anaca3-boutique/v2/perte-poids/anaca3-perte-poids.png" alt="Anaca3 Perte de Poids"></div><div class="col-xs-7 valign"><span class="cc-title">Perte de poids<br>2 boîtes</span><span class="fw600 cc-price">54,10 €</span></div><div class="col-xs-2 text-center valign"><span class="supprimer-modal pointer orange" title="Supprimer du panier" data-qtt="1" data-id="1001"><i class="lnr lnr-2x lnr-trash2 "></i></span></div></div><div class="row"><div class="col-xs-3 valign"><img class="product-image img-responsive center-block" src="/Picture/anaca3-boutique/v2/perte-poids/anaca3-perte-poids.png" alt="Anaca3 Perte de Poids"></div><div class="col-xs-7 valign"><span class="cc-title">Perte de poids<br>2 boîtes</span><span class="fw600 cc-price">54,10 €</span></div><div class="col-xs-2 text-center valign"><span class="supprimer-modal pointer orange" title="Supprimer du panier" data-qtt="1" data-id="1001"><i class="lnr lnr-2x lnr-trash2 "></i></span></div></div><div class="row"><div class="col-xs-3 valign"><img class="product-image img-responsive center-block" src="/Picture/anaca3-boutique/v2/perte-poids/anaca3-perte-poids.png" alt="Anaca3 Perte de Poids"></div><div class="col-xs-7 valign"><span class="cc-title">Perte de poids<br>2 boîtes</span><span class="fw600 cc-price">54,10 €</span></div><div class="col-xs-2 text-center valign"><span class="supprimer-modal pointer orange" title="Supprimer du panier" data-qtt="1" data-id="1001"><i class="lnr lnr-2x lnr-trash2 "></i></span></div></div></div><div class="text-center mtop20 mbottom15 btn-checkout"><a href="/boutique/" class="btn btn-default square mbottom5">Continuer mes achats</a><a href="/commande" class="btn btn-success btn-lg square mbottom5">Finaliser ma commande <i class="lnr lnr-2x lnr-chevron-right-circle"></i></a></div><a href="javascript:void(0)" title="Boutique Anaca3" style="cursor:initial"><img id="ban-gift-missing" class="img-responsive center-block" src="/Picture/anaca3-boutique/v2/gift/gift-missing-0.jpg?v=1.0" alt="Anaca3 cadeau offert"></a><div class="row xs-gutter mtop20" id="cart-products-suggestion"><span class="text-center cps-title">Idéal avec</span><div id="cart-products-suggestion-container"><div class="col-xs-6 text-center"><a href="/boutique/anaca3-peau-dorange" class="suggested-img-link" title="Anaca3 Peau d'orange"><img class="product-image img-responsive center-block" src="/Picture/anaca3-boutique/v2/peau-dorange/anaca3-peau-dorange.png" alt="Anaca 3 Peau d'orange"></a><span class="product-title mtop5"><a href="/boutique/anaca3-peau-dorange" title="Anaca3 Peau d'orange">Peau d'orange</a><small style="height: 34px;">Contre la peau d'orange, réduit la cellulite et les capitons <sup>(1)</sup></small></span><div class="product-price fw600">22,90 €</div><button class="product-cart-btn btn btn-danger-a3 touppercase square" data-toggle="modal" data-target="#modal-formules" data-formules="[{&quot;id&quot;:1200,&quot;niche&quot;:&quot;peau-dorange&quot;,&quot;nom&quot;:&quot;Peau d'orange&quot;,&quot;nom_reglementaire&quot;:&quot;Peau d'orange&quot;,&quot;label_1&quot;:&quot;1 bo\u00eete&quot;,&quot;label_2&quot;:&quot;15 jours&quot;,&quot;label_popup&quot;:&quot;1 bo\u00eete&quot;,&quot;prix&quot;:&quot;22.90&quot;,&quot;prix_strike&quot;:null,&quot;qtt&quot;:1,&quot;subtitle&quot;:&quot;Contre la peau d'orange, r\u00e9duit la cellulite et les capitons <sup>(1)<\/sup>&quot;,&quot;title&quot;:&quot;Anaca3 Peau d'orange - Anaca3.com&quot;,&quot;meta_desc&quot;:&quot;Anaca3 Peau d'orange est un compl\u00e9ment alimentaire qui gr\u00e2ce \u00e0 sa composition aide \u00e0 r\u00e9duire la CELLULITE et les CAPITONS. 6 g\u00e9lules par jour, en programme prolong\u00e9 pour plus...&quot;,&quot;pack&quot;:&quot;1&quot;,&quot;actions&quot;:[&quot;Contre la peau d'orange <sup>(1)<\/sup>&quot;,&quot;R\u00e9duit la cellulite <sup>(1)<\/sup>&quot;,&quot;R\u00e9duit les capitons <sup>(1)<\/sup>&quot;]},{&quot;id&quot;:1201,&quot;niche&quot;:&quot;peau-dorange&quot;,&quot;nom&quot;:&quot;Peau d'orange&quot;,&quot;nom_reglementaire&quot;:&quot;Peau d'orange&quot;,&quot;label_1&quot;:&quot;2 bo\u00eetes&quot;,&quot;label_2&quot;:&quot;30 jours&quot;,&quot;label_popup&quot;:&quot;2 bo\u00eetes&quot;,&quot;prix&quot;:&quot;44.40&quot;,&quot;prix_strike&quot;:&quot;45.80&quot;,&quot;qtt&quot;:2,&quot;subtitle&quot;:&quot;Contre la peau d'orange, r\u00e9duit la cellulite et les capitons <sup>(1)<\/sup>&quot;,&quot;title&quot;:&quot;Anaca3 Peau d'orange - Anaca3.com&quot;,&quot;meta_desc&quot;:&quot;Anaca3 Peau d'orange est un compl\u00e9ment alimentaire qui gr\u00e2ce \u00e0 sa composition aide \u00e0 r\u00e9duire la CELLULITE et les CAPITONS. 6 g\u00e9lules par jour, en programme prolong\u00e9 pour plus...&quot;,&quot;pack&quot;:&quot;2&quot;,&quot;actions&quot;:[&quot;Contre la peau d'orange <sup>(1)<\/sup>&quot;,&quot;R\u00e9duit la cellulite <sup>(1)<\/sup>&quot;,&quot;R\u00e9duit les capitons <sup>(1)<\/sup>&quot;]},{&quot;id&quot;:1202,&quot;niche&quot;:&quot;peau-dorange&quot;,&quot;nom&quot;:&quot;Peau d'orange&quot;,&quot;nom_reglementaire&quot;:&quot;Peau d'orange&quot;,&quot;label_1&quot;:&quot;3 bo\u00eetes&quot;,&quot;label_2&quot;:&quot;45 jours&quot;,&quot;label_popup&quot;:&quot;3 bo\u00eetes&quot;,&quot;prix&quot;:&quot;64.50&quot;,&quot;prix_strike&quot;:&quot;68.70&quot;,&quot;qtt&quot;:3,&quot;subtitle&quot;:&quot;Contre la peau d'orange, r\u00e9duit la cellulite et les capitons <sup>(1)<\/sup>&quot;,&quot;title&quot;:&quot;Anaca3 Peau d'orange - Anaca3.com&quot;,&quot;meta_desc&quot;:&quot;Anaca3 Peau d'orange est un compl\u00e9ment alimentaire qui gr\u00e2ce \u00e0 sa composition aide \u00e0 r\u00e9duire la CELLULITE et les CAPITONS. 6 g\u00e9lules par jour, en programme prolong\u00e9 pour plus...&quot;,&quot;pack&quot;:&quot;3&quot;,&quot;actions&quot;:[&quot;Contre la peau d'orange <sup>(1)<\/sup>&quot;,&quot;R\u00e9duit la cellulite <sup>(1)<\/sup>&quot;,&quot;R\u00e9duit les capitons <sup>(1)<\/sup>&quot;]},{&quot;id&quot;:1203,&quot;niche&quot;:&quot;peau-dorange&quot;,&quot;nom&quot;:&quot;Peau d'orange&quot;,&quot;nom_reglementaire&quot;:&quot;Peau d'orange&quot;,&quot;label_1&quot;:&quot;4 bo\u00eetes&quot;,&quot;label_2&quot;:&quot;60 jours&quot;,&quot;label_popup&quot;:&quot;4 bo\u00eetes&quot;,&quot;prix&quot;:&quot;82.40&quot;,&quot;prix_strike&quot;:&quot;91.60&quot;,&quot;qtt&quot;:4,&quot;subtitle&quot;:&quot;Contre la peau d'orange, r\u00e9duit la cellulite et les capitons <sup>(1)<\/sup>&quot;,&quot;title&quot;:&quot;Anaca3 Peau d'orange - Anaca3.com&quot;,&quot;meta_desc&quot;:&quot;Anaca3 Peau d'orange est un compl\u00e9ment alimentaire qui gr\u00e2ce \u00e0 sa composition aide \u00e0 r\u00e9duire la CELLULITE et les CAPITONS. 6 g\u00e9lules par jour, en programme prolong\u00e9 pour plus...&quot;,&quot;pack&quot;:&quot;4&quot;,&quot;actions&quot;:[&quot;Contre la peau d'orange <sup>(1)<\/sup>&quot;,&quot;R\u00e9duit la cellulite <sup>(1)<\/sup>&quot;,&quot;R\u00e9duit les capitons <sup>(1)<\/sup>&quot;]}]" onclick="$('#modal-cart').modal('hide');">Commander</button></div><div class="col-xs-6 text-center"><a href="/boutique/anaca3-bonbon-minceur" class="suggested-img-link" title="Anaca3 Le Bonbon Minceur"><img class="product-image img-responsive center-block" src="/Picture/anaca3-boutique/v2/bonbon-minceur/anaca3-bonbon-minceur.png" alt="Anaca 3 Le Bonbon Minceur"></a><span class="product-title mtop5"><a href="/boutique/anaca3-bonbon-minceur" title="Anaca3 Le Bonbon Minceur">Le Bonbon Minceur</a><small style="height: 34px;">Mincir <sup>(1)</sup> en se faisant plaisir</small></span><div class="product-price fw600">11,90 €</div><button class="product-cart-btn btn btn-danger-a3 touppercase square" data-toggle="modal" data-target="#modal-formules" data-formules="[{&quot;id&quot;:1600,&quot;niche&quot;:&quot;bonbon-minceur&quot;,&quot;nom&quot;:&quot;Le Bonbon Minceur&quot;,&quot;nom_reglementaire&quot;:&quot;Le Bonbon Minceur<sup>(1)<\/sup>&quot;,&quot;label_1&quot;:&quot;1 sachet&quot;,&quot;label_2&quot;:&quot;10 jours&quot;,&quot;label_popup&quot;:&quot;1 sachet&quot;,&quot;prix&quot;:&quot;11.90&quot;,&quot;prix_strike&quot;:null,&quot;qtt&quot;:1,&quot;subtitle&quot;:&quot;Mincir <sup>(1)<\/sup> en se faisant plaisir&quot;,&quot;title&quot;:&quot;Anaca3 Le Bonbon Minceur - Anaca3.com&quot;,&quot;meta_desc&quot;:&quot;Anaca3 Le Bonbon Minceur est la nouveaut\u00e9 Anaca3 aux 3 go\u00fbts cola, fraise et citron qui allie plaisir et minceur. Gr\u00e2ce \u00e0 l\u2019ascophyllum, il diminue l\u2019absorption des graisses.&quot;,&quot;pack&quot;:&quot;1&quot;,&quot;actions&quot;:[&quot;Absorption des graisses <sup>(1)<\/sup>&quot;,&quot;Amincit <sup>(1)<\/sup>&quot;,&quot;Go\u00fbt fraise, cola ou citron&quot;]},{&quot;id&quot;:1601,&quot;niche&quot;:&quot;bonbon-minceur&quot;,&quot;nom&quot;:&quot;Le Bonbon Minceur&quot;,&quot;nom_reglementaire&quot;:&quot;Le Bonbon Minceur<sup>(1)<\/sup>&quot;,&quot;label_1&quot;:&quot;2 sachets&quot;,&quot;label_2&quot;:&quot;20 jours&quot;,&quot;label_popup&quot;:&quot;2 sachets&quot;,&quot;prix&quot;:&quot;23.00&quot;,&quot;prix_strike&quot;:&quot;23.80&quot;,&quot;qtt&quot;:2,&quot;subtitle&quot;:&quot;Mincir <sup>(1)<\/sup> en se faisant plaisir&quot;,&quot;title&quot;:&quot;Anaca3 Le Bonbon Minceur - Anaca3.com&quot;,&quot;meta_desc&quot;:&quot;Anaca3 Le Bonbon Minceur est la nouveaut\u00e9 Anaca3 aux 3 go\u00fbts cola, fraise et citron qui allie plaisir et minceur. Gr\u00e2ce \u00e0 l\u2019ascophyllum, il diminue l\u2019absorption des graisses.&quot;,&quot;pack&quot;:&quot;2&quot;,&quot;actions&quot;:[&quot;Absorption des graisses <sup>(1)<\/sup>&quot;,&quot;Amincit <sup>(1)<\/sup>&quot;,&quot;Go\u00fbt fraise, cola ou citron&quot;]},{&quot;id&quot;:1602,&quot;niche&quot;:&quot;bonbon-minceur&quot;,&quot;nom&quot;:&quot;Le Bonbon Minceur&quot;,&quot;nom_reglementaire&quot;:&quot;Le Bonbon Minceur<sup>(1)<\/sup>&quot;,&quot;label_1&quot;:&quot;3 sachets&quot;,&quot;label_2&quot;:&quot;30 jours&quot;,&quot;label_popup&quot;:&quot;3 sachets&quot;,&quot;prix&quot;:&quot;33.50&quot;,&quot;prix_strike&quot;:&quot;35.70&quot;,&quot;qtt&quot;:3,&quot;subtitle&quot;:&quot;Mincir <sup>(1)<\/sup> en se faisant plaisir&quot;,&quot;title&quot;:&quot;Anaca3 Le Bonbon Minceur - Anaca3.com&quot;,&quot;meta_desc&quot;:&quot;Anaca3 Le Bonbon Minceur est la nouveaut\u00e9 Anaca3 aux 3 go\u00fbts cola, fraise et citron qui allie plaisir et minceur. Gr\u00e2ce \u00e0 l\u2019ascophyllum, il diminue l\u2019absorption des graisses.&quot;,&quot;pack&quot;:&quot;3&quot;,&quot;actions&quot;:[&quot;Absorption des graisses <sup>(1)<\/sup>&quot;,&quot;Amincit <sup>(1)<\/sup>&quot;,&quot;Go\u00fbt fraise, cola ou citron&quot;]},{&quot;id&quot;:1603,&quot;niche&quot;:&quot;bonbon-minceur&quot;,&quot;nom&quot;:&quot;Le Bonbon Minceur&quot;,&quot;nom_reglementaire&quot;:&quot;Le Bonbon Minceur<sup>(1)<\/sup>&quot;,&quot;label_1&quot;:&quot;4 sachets&quot;,&quot;label_2&quot;:&quot;40 jours&quot;,&quot;label_popup&quot;:&quot;4 sachets&quot;,&quot;prix&quot;:&quot;42.50&quot;,&quot;prix_strike&quot;:&quot;47.60&quot;,&quot;qtt&quot;:4,&quot;subtitle&quot;:&quot;Mincir <sup>(1)<\/sup> en se faisant plaisir&quot;,&quot;title&quot;:&quot;Anaca3 Le Bonbon Minceur - Anaca3.com&quot;,&quot;meta_desc&quot;:&quot;Anaca3 Le Bonbon Minceur est la nouveaut\u00e9 Anaca3 aux 3 go\u00fbts cola, fraise et citron qui allie plaisir et minceur. Gr\u00e2ce \u00e0 l\u2019ascophyllum, il diminue l\u2019absorption des graisses.&quot;,&quot;pack&quot;:&quot;4&quot;,&quot;actions&quot;:[&quot;Absorption des graisses <sup>(1)<\/sup>&quot;,&quot;Amincit <sup>(1)<\/sup>&quot;,&quot;Go\u00fbt fraise, cola ou citron&quot;]}]" onclick="$('#modal-cart').modal('hide');">Commander</button></div></div></div></div>
+   
+
+  
+
+  <!-- main-content -->
+    <div class="">
+       <!-- Section: inner-header -->
+        
+        
+    </div>
+  <!-- end main-content -->
+    
+
+  <!-- Footer -->
+    
+  <!-- End Footer -->  
+    
+<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a> </div>
+<!-- end wrapper --> 
+
+
+    
+<!-- Scripts --> 
+
+<!-- JS | Custom script for all pages --> 
+<script src="js/custom.js"></script>
+
+</body>
+</html>

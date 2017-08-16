@@ -1,7 +1,7 @@
 <?php include 'include/var.php'; ?>
 
 <header id="header" class="header no-background">
-    <div class="navbar-scrolltofixed bordered shadow-menu" style="border-radius: 0 0 20px 20px;">
+    <div class="navbar-scrolltofixed shadow-menu" >
         <div class="header-nav no-background">
            <div class="header-nav-wrapper no-background">
                <div class="row">

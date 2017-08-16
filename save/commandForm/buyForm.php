@@ -1,6 +1,37 @@
 <form id="cmdForm" name="cmdForm" class="register-form form-transparent" method="post" action="BDD/formulaire.php"  style="margin: 20px;" onsubmit="return valider(this)">
 
     <div class="row">
+
+        <div class="form-group col-md-6">
+            <div class="form-group col-md-6">
+              <label for="form_prenom">Prénom *</label>
+              <input id="form_prenom" name="form_prenom" class="form-control" type="text" required placeholder="Prénom">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="form_name">Nom *</label>
+              <input id="form_name" name="form_name" class="form-control" type="text" required placeholder="Nom">
+            </div>
+            <div class="form-group col-md-12">
+                <hr><br>
+            </div>
+            <div class="form-group col-md-12">
+              <label>Adresse Mail *</label>
+              <input id="form_email" name="form_email" class="form-control" type="email" required placeholder="Adresse e-mail valide">
+            </div>
+            <div class="form-group col-md-12">
+              <label>Adresse Postal *</label>
+              <input id="form_adress" name="form_adress" class="form-control" type="text" required placeholder="Adresse">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="form_cp">C.P *</label>
+              <input id="form_cp" name="form_cp" class="form-control" type="text" required placeholder="CP">
+            </div>
+            <div class="form-group col-md-8">
+              <label>Ville *</label>
+              <input id="form_town" name="form_town"  class="form-control" type="text" required placeholder="Ville">
+            </div>
+
+        </div>
         <div class="form-group col-md-6">
             <div class="form-group col-md-12">
                 <img id="verifiedCard" alt="" src="images/paiement/verification_by_visa.jpg">

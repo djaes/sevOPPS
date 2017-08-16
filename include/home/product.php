@@ -31,7 +31,7 @@
                     </p>               
                     
                     <!-- Trigger the modal with a button -->
-                    <button type="button" class="btn btn-dark btn-theme-colored btn-circled" data-toggle="modal" data-target="#myModal">Commander</button>
+                    <button type="button" class="bouton" data-toggle="modal" data-target="#myModal">Commander</button>
                 </div>
             </div>
         </div>

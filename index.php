@@ -55,7 +55,7 @@
     
 </head>
     
-<body class="boxed-layout pb-40 pt-sm-0">
+<body class="boxed-layout pb-40 pt-sm-0" style="padding-right: 0px;" >
     <div id="wrapper">
         <!-- preloader -->
         <div id="preloader">
@@ -76,18 +76,15 @@
                 <?php include 'include/home/slide.php'; ?>
             </section>
             
-            <!-- Section: Descript -->   
-            <section id="descript" class=" parallax layer-overlay overlay-white" >
-                <?php include 'include/home/descript.php'; ?>
-                
-                
-            
-            </section>
-
             <!-- Section: Produit  -->
             <section id="product" class="bg-lighter">
                 <?php include 'include/home/product.php'; ?>
             </section> 
+            
+            <!-- Section: Descript -->   
+            <section id="descript" class=" parallax layer-overlay overlay-white" >
+                <?php include 'include/home/descript.php'; ?>
+            </section>
             
             <!-- Section: temoignages -->
             <section id="witness" class="divider parallax layer-overlay overlay-white"  >
@@ -101,27 +98,14 @@
 
         <!-- Footer -->
         <?php include 'include/footer.php'; ?>
-        <!-- End Footer -->  
-    
-        <!-- Modal -->
-  <div class="modal modal-transparent fade active" id="myModal" role="dialog">
-    <div class="modal-dialog modal-lg">    
-      <!-- Modal content-->
-      <div class="no-background">          
-        <?php
-            include ("cmForm.php");
-        ?>
-      </div>
-      
-    </div>
-  </div>
-        
-        
+        <!-- End Footer --> 
         
     </div>
-    
     <!-- end wrapper --> 
 	
+    
+    <!-- Modal -->
+          <?php include 'include/modal.php'; ?>
     
     <!-- Scripts --> 
     <!-- JS | Calendar Event Data --> 
@@ -142,13 +126,6 @@
     <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script> 
     <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
     
-    <script>
-        $(document).ready(function(){
-        $("#myBtn").click(function(){
-            $("#myModal").modal();
-    });
-});
-</script>
     
 	
 </body>
