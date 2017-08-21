@@ -1,5 +1,5 @@
 <?php
-$addrMail = "toto@gmail.com";
+$addrMail = "bioactivfit@gmail.com";
 $addrSite = "Bioactivfit.com";
 $copyright = "Copyright &copy;2070 apres moi . All Rights Reserved";
 $logoPath ="images/logo-favicon/logo_500X150.png";

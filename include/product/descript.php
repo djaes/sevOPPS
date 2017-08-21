@@ -10,7 +10,7 @@
   <h5 >Complément alimentaire à base de plantes.</h5>
   <p class="text-justify"><?php echo $productTextDescript; ?></p>
     <!-- Trigger the modal with a button -->
-    <button type="button" class="bouton" data-toggle="modal" data-target="#myModal">Commander</button>
+    <button type="button" class="bouton-commander" data-toggle="modal" data-target="#myModal">Commander</button>
 
 </div>
 <div class="col-md-4 pt-40" >

@@ -28,10 +28,14 @@
                     <h4 class="font-weight-300 line-bottom mb-0"><strong>Contact</strong><br></h4>
                     <p style="font-size: 13px;"><i class="fa fa-envelope-o text-theme-colored mr-10"></i> <?php echo $addrMail; ?><br>
                         <i class="fa fa-globe text-theme-colored mr-10"></i> <?php echo $addrSite; ?>
-                    </p>               
+                    </p>
                     
                     <!-- Trigger the modal with a button -->
-                    <button type="button" class="bouton" data-toggle="modal" data-target="#myModal">Commander</button>
+                    <button type="button" class="bouton-commander" data-toggle="modal" data-target="#myModal">Commander</button>
+                    <a href="product.php">
+                    <button type="button" class="bouton-commander detail" data-toggle="modal" >Détails</button>
+                        </a>
+                    
                 </div>
             </div>
         </div>

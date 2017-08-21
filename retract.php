@@ -75,7 +75,7 @@
             <!-- Section: Produit  -->
             <section id="commande" class="bg-lighter">
 			<div class="container">
-                <?php include ('include/order/order.php'); ?>
+                <?php include ('include/retract/retract.php'); ?>
 			</div>
             </section> 
             
@@ -90,18 +90,7 @@
         <!-- End Footer -->  
     
         <!-- Modal -->
-  <div class="modal modal-transparent fade active" id="myModal" role="dialog">
-    <div class="modal-dialog modal-lg">    
-      <!-- Modal content-->
-      <div class="no-background">          
-        <?php
-            include ("cmForm.php");
-        ?>
-      </div>
-      
-    </div>
-  </div>
-        
+        <?php include 'include/modal.php'; ?>
         
         
     </div>

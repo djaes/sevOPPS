@@ -8,7 +8,7 @@
                    <div class="col-md-14">
                        <div id="menuzord-right" class="menuzord orange no-bg">
                            <a href="#"><img class="logo" src="<?php echo $logoPath; ?>" alt="" style="margin-left: 60px;"></a>
-                           <ul class="menuzord-menu" style="margin-right: 50px;">
+                           <ul class="menuzord-menu">
                                <li>
                                    <a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> Accueil</a>
                                </li>
@@ -20,7 +20,9 @@
                                </li>
                                <li>
                                    <a href="#" data-toggle="modal" data-target="#myModal" class="no-mobile" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Commander</a>
-                                   
+                               </li>
+                               <li class="connect">
+                                   <a href="#" data-toggle="modal" data-target="#myIdent" class="no-mobile" ><i class="fa fa-sign-in" aria-hidden="true"></i>Se connecter</a>
                                </li>
                            </ul>
                         </div>
