@@ -1,3 +1,15 @@
+<?php 
+	include 'include/var.php'; 
+	include("connex/connexion.php");
+	$requete_select_client=mysqli_query($dbprotect,"SELECT * FROM client WHERE idClient='".mysqli_real_escape_string($dbprotect,$_POST["idClient"])."'") or die(mysqli_error($dbprotect)); 
+	include("connex/deconnexion.php");
+	while($s=mysqli_fetch_array($requete_select_client)){
+		$_SESSION["id"] = $s['idClient'];
+		$_SESSION["prenom"]=$s['prenom'];
+		$_SESSION["email"] = $s['email'];
+	}
+	
+?>
 <!DOCTYPE html>
 <html dir="ltr" lang="fr">
 
@@ -43,7 +55,17 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- JS | jquery plugin collection for this theme -->
     <script src="js/jquery-plugin-collection.js"></script>
-    <?php include 'include/var.php'; ?>
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84920945-1', 'auto');
+  ga('send', 'pageview');
+
+	</script>
+    
 </head>
 <body class="">
 <div id="wrapper">
@@ -63,7 +85,7 @@
         <div class="display-table-cell">
           <div class="container pt-0 pb-0"><div class="row">
               <div class="col-md-10 col-md-offset-1">
-                <h1 class="font-weight-100 font-64 mb-0">Merci d'avoir pris soin de vous</h1>
+                <h2 class="font-weight-50 font-30 mb-0">Votre commande a bien été prise en compte. <br/> Vous recevrez sous peu votre boite de gélules BioActivFit cure minceur.</h2>
                   
                   
                 <div class="soon" id="countdown-timer-soon-amor"
@@ -73,7 +95,7 @@
                   data-due="2016-06-01"
                   data-face="flip color-light corners-round shadow-soft">
                 </div>
-                  <h3 class="font-14"><a href="<?php echo $partenaireLink1; ?>"> Visiter nos partenaire</a></h3>
+                  <h3 class="font-20"  ><a href="backoffice-menu.php" style="text-decoration:underline; color:#FF00CC;"> Visiter votre espace personnel avec votre coaching minceur.</a></h3>
                 
 
 

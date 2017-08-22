@@ -1,17 +1,24 @@
-<div class="container">
-    <div class="section-title text-center">
+<div class="container ">
+    <div class="section-title text-center no-phone">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-sm-12 ">
           <h2 class="title text-uppercase"><span class="text-theme-colored ml-10 font-weight-270">Bioactivfit</span></h2>
         </div>
       </div>
     </div>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="col-md-5"><a href="#" data-toggle="modal" data-target="#myModal" class="no-mobile" >
-                <img style="max-height: 550px;" src="<?php echo $homeProductImg; ?>" alt="">
+    <div class="padding-less-phone" >
+        <div class="col-sm-12 row">
+			<div class="euro2">
+				<div class="">
+					<span style="">1 semaine <br/>d'essai gratuit</span>
+				</div>
+			</div>
+            <div class="col-sm-5 row"><a href="#" data-toggle="modal" data-target="#myModal" class="" >
+               <!-- <img class ="no-phone" style="max-height: 550px;" src="<?php echo $homeProductImg; ?>" alt="">
+                <img class ="no-phone" style="max-height: 100px !important;margin:0;" src="images/product/fabriqueFrance.jpg" alt="">-->
+                <img style="width:100%;height:auto;margin:0;" src="images/visuel-minceur-xs.png" alt="">
                 </a></div>
-            <div class="col-md-7">
+            <div class="col-sm-7">
                 <div class="border-theme-colored border-5px p-40 pt-0">
                     <h2 class="text-uppercase">Les gélules <span class="text-theme-colored ml-10">Bioactivfit</span></h2>
                     <h4 class="text-uppercase letter-space-3">Slim Perte de poids</h4>

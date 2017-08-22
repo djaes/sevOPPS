@@ -1,0 +1,334 @@
+* {
+    
+}
+@media(min-width:1200px){
+    .header {
+        max-width: 100% !important;
+        min-width: 1100px;
+    }
+    #imc {
+        border-right:0; 
+        margin: 12px 0px 0px 35px;
+        border: 3px solid #abc502;
+        border-right: 0;
+    }
+    #imc-calcul {
+        border: 3px solid #abc502;
+    }
+}
+@media(min-width:992px){
+    #imc {
+        border-right:0; 
+        margin: 12px 0px 0px 35px;
+        border: 3px solid #abc502;
+        border-right: 0;
+    }
+    #imc-calcul {
+        border: 3px solid #abc502;
+    }
+    .modal-dialog {
+        overflow-y: hidden !important;
+    }    
+}
+@media(max-width:991px){
+    .imc-calcul {
+        border: none ! important;
+        width: -moz-available;
+    }
+    .display-min {
+        display: none;
+    }
+    .euro {
+        padding: 13px 0 0 !important;
+        margin-left: -100px !important;
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .euro span {        
+    font-size: 13px !important;
+    }
+    .cmdImg {
+        max-width: 50% !important;
+    }
+}
+
+.imc {
+    min-height: 260px;
+    margin: 10px 30px 0px 30px;
+}
+.imc-range {
+    margin: 0 10px;
+    min-height: 226px;
+}
+.btn-orange{
+	background-color:#ee7421;
+	color:#fff;
+}
+.imc-calcul {
+    margin: 0 10px;
+    text-align: center;
+    min-height: 226px;
+    float: right;
+}
+body {
+    background-color: #E5E5E5 !important;
+    padding-right: 0 !important;
+}
+.shadow {
+    box-shadow: 10px 10px 15px 3px #656565;
+}
+img {
+    margin: auto;
+}
+footer {
+    padding: 10px !important;
+}
+.bordered {
+    border: 3px solid #abc502;
+}
+
+
+
+.shadow-menu {
+    background-color: #f7f7f7 !important;
+    box-shadow: 10px 0px 15px 3px #656565;
+}
+.no-shadow{
+    background-color: #f7f7f7;    
+    box-shadow: none;
+}
+#header{
+	background-color:#fff;
+	border-bottom : solid #d7d7d7 1px;
+}
+#header ul{
+    margin-right: 3px;
+}
+#header ul li a:hover{
+    background: #fff;
+    color: #ee7421;
+}
+#header ul a {
+    font-size: 18px;
+    font-family: 'Montserrat',sans-serif;
+}
+#header ul a i {
+    line-height: 1.4;
+}
+
+#header .row{
+    padding: 0;
+    margin: 0;
+}
+#header img {
+    max-height: 80px;
+}
+#header .header-nav {
+    background-color: #f0f0f0;
+}
+
+.main-content {
+    margin-top: 20px !important;
+}
+.logo { 
+    padding: 5px;
+    width: 150px;
+    max-height: 80px;
+}
+#opignon_row{
+    margin-left: 0px;
+}
+#selectDate {
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+#verifiedCard {
+    width: 100%;
+    padding: 0px;
+}
+#logoCMD {
+    width: 20%;
+}
+
+
+#payBox {
+    padding: 10px;
+}
+.pbar { 
+    width: 100%;
+    height: 12px;
+    padding: 1px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+.pbar:before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 10px;
+    background: #abc502;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+.bloc_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.background {
+    background-color: #f7f7f7 !important;
+}
+.no-background {
+    background: none !important;
+}
+.no-border {
+    border: 0px !important;
+}
+.mar-50-h {
+    margin: 0 50px;
+}
+output {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0;
+    width: 100%;
+}
+#crypto {
+    width: 19px;
+}
+.guarana:before {
+    width: 70%;
+}
+.the:before {
+    width: 60%;
+}
+.nopal:before {
+    width: 50%;
+}
+.framboise:before {
+    width: 30%;
+}
+.ananas:before {
+    width: 30%;
+}
+.raisin:before {
+    width: 30%;
+}
+.papaye:before {
+    width: 20%;
+}
+.contenue-add {
+       
+}
+.commandForm {
+    
+}
+.cmdPanier {
+    min-height: 200px;
+    border: solid 1px black;
+}
+.cmdPanier img {
+    
+}
+.cmdPanier .cmdImg {
+    
+    
+}
+.cmdPanier  {
+    font-family: "Times New Roman", Times, serif;
+    
+}
+.cmdTarif {
+    font-family: "Times New Roman", Times, serif;
+}
+.finalCmdBouton  {
+    padding: 0;
+    white-space: normal;
+    font-size: 1.4em;
+    font-weight: 300;
+    line-height: 3em;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.euro {
+    margin-top: 80px;
+    margin-left: -150px;
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #dd4e00;
+    top: -100px;
+    text-align: center;
+    z-index: 100;
+    left: 60%;
+    padding: 27px 0 0;
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    -moz-box-shadow: 1px 1px 20px 2px #656565;
+    -webkit-box-shadow: 1px 1px 20px 2px #656565;
+    -o-box-shadow: 1px 1px 20px 2px #656565;
+    box-shadow: 1px 1px 20px 2px #656565;    filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=20);
+}
+.euro span {
+    text-shadow: 1px 4px 7px rgba(17, 15, 15, 0.95);
+    font-size: 25px;
+    color: white; 
+}
+#myModal2 {
+    padding-right:  0 !important;
+}
+#myModal1 {
+    padding-right:  0 !important;
+}
+body.modal-open { overflow: inherit; padding-right: 0 !important; }
+.price{
+	color: #fe7800;
+	font-weight: 400;
+	font-size: 24px;
+}
+h3.box {
+	margin-top: 0px;
+    padding: 5px;
+    background: #333;
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.form-box {
+	border: solid gray 1px; 
+	margin: 5px;
+}
+
+
+.pay-box {
+	border: solid #CCCCCC 1px; 
+	margin: 5px;
+	background-color: #FFFFFF;
+}
+
+.pay-box h3{
+	margin-top: 0px;
+    padding: 5px 20px;
+    background-color: #ee7421;
+	border: solid #ee7421 1px; 
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 500;
+}

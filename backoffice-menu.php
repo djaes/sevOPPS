@@ -1,3 +1,9 @@
+<?php
+	include("include/var.php");
+	if(isset($_POST["send_login"])){
+		include("include/authentification.php");
+	}
+?>
 <!DOCTYPE html>
 <html dir="ltr" lang="fr">
 <head>
@@ -73,9 +79,9 @@
         <div class="main-content">
             
             <!-- Section: Produit  -->
-            <section id="commande" class="bg-lighter">
+            <section id="product" class="bg-lighter">
 			<div class="container">
-                <?php include ('include/retract/retract.php'); ?>
+                <?php include ('include/back-office/menus.php'); ?>
 			</div>
             </section> 
             
@@ -86,11 +92,9 @@
 
 
         <!-- Footer -->
-        <?php include 'include/footer.php'; ?>
+        <?php //include 'include/footer.php'; ?>
         <!-- End Footer -->  
-    
-        <!-- Modal -->
-        <?php include 'include/modal.php'; ?>
+        
         
         
     </div>
@@ -103,6 +107,7 @@
     <script src="js/calendar-events-data.js"></script> 
     <!-- JS | Custom script for all pages --> 
     <script src="js/custom.js"></script>
+    <script src="js/js-back-office.js"></script>
 
     <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
           (Load Extensions only on Local File Systems ! 

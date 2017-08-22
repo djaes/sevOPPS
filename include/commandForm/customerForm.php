@@ -1,16 +1,17 @@
-<form name="cmdForm" class="register-form form-transparent" method="post" action="BDD/formulaire.php"  style="margin: 20px;" onsubmit="return valider(this)">
+<form id="cmdForm" name="cmdForm" class="register-form form-transparent" method="post" action="finalCommande.php"  style="margin: 20px;" onsubmit="return valider(this)">
+
     <div class="row">
 		<div class="form-group col-md-5 form-box" >
 			<div class="row">
 				<h3 class="box">1. Votre commande</h3>
 			</div>
-				<table class="table table-condensed">
-                    <tr>
+				<table class="table table-condensed>
+					<tr>
 						<td colspan="2">
-                            <div id="full-cart-info" class="full-cart">
+							<div id="full-cart-info" class="full-cart">
 								<div id="total-cart-info" class="total-cart-img bold text-center">
 									<p class="h4">Cure complète 1 mois BioActivFit</p>
-									<img src="<?php echo $productImgDescript; ?>" style="height:50px;" alt=""><p class="price"><span>39,90 €</span></p>
+									<img src="<?php echo $productImgDescript; ?>" style="height:50px;" alt=""><p class="price"><span>34,00 €</span></p>
 								</div>
 							</div>
 						</td>
@@ -60,7 +61,7 @@
             </div>
             <div class="form-group col-md-4">
               <label for="form_cp">C.P *</label>
-              <input id="form_cp" name="form_cp" class="form-control" type="text" required placeholder="CP">
+              <input id="form_cp" name="form_cp" class="form-control" type="number" required placeholder="CP">
             </div>
             <div class="form-group col-md-8">
               <label>Ville *</label>
@@ -86,5 +87,5 @@
        <div class="col-md-1">
        </div>
 
-    </div>
-</form>
+        </div>
+        </form>

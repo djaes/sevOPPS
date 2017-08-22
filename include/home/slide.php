@@ -10,14 +10,14 @@
                                         <img src="<?php echo $homeSlideImg; ?>"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="6" data-no-retina>
                                         <!-- LAYERS --> 
                 
-                                        <!-- 
-                                        <div class="tp-caption tp-resizeme text-center text-white font-raleway bg-dark-transparent pl-30 pr-30 border-theme-colored no-background no-border" 
+                                        
+                                        <div class="tp-caption tp-resizeme text-center text-white font-raleway pl-30 pr-30 border-theme-colored no-background no-border" 
                                           id="rs-1-layer-1"
 
-                                          data-x="['right']"
+                                          data-x="['left']"
                                           data-hoffset="['30']"
-                                          data-y="['middle']"
-                                          data-voffset="['-40'']"
+                                          data-y="['bottom']"
+                                          data-voffset="['40'']"
                                           data-fontsize="['64','64','54','24']"
                                           data-lineheight="['90']"
 
@@ -26,40 +26,84 @@
                                           data-whitespace="nowrap"
                                           data-transform_idle="o:1;s:500"
                                           data-transform_in="y:100;scaleX:1;scaleY:1;opacity:0;"
-                                          data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
+                                          data-transform_out="x:right(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
                                           data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                                           data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                                          data-start="1400" 
+                                          data-start="2700" 
                                           data-splitin="none" 
                                           data-splitout="none" 
                                           data-responsive_offset="on"
-                                          style="z-index: 5; white-space: nowrap; font-weight:600; border-right: 6px solid;cursor: pointer;" data-toggle="modal" data-target="#myModal">Commander maintenant</div>
-
-                                        
-                                        <div class="tp-caption tp-resizeme text-center text-white font-raleway bg-dark-transparent pl-30 pr-30 border-theme-colored no-background no-border" 
-                                          id="rs-1-layer-2"
+                                          style="z-index: 5; white-space: nowrap; font-weight:600; border-right: 6px solid;cursor: pointer;" data-toggle="modal" data-target="#myModal"><img style="max-height: 100px !important;max-width: 100px !important;margin:0;" src="images/product/fabriqueFrance.jpg" alt=""></div>
+                                          
+                                        <div class="tp-caption tp-resizeme text-center text-white font-raleway pl-30 pr-30 border-theme-colored no-background no-border" 
+                                          id="rs-1-layer-1"
 
                                           data-x="['right']"
-                                          data-hoffset="['30']"
-                                          data-y="['middle']"
-                                          data-voffset="['50'']"
-                                          data-fontsize="['48','64','54','24']"
-                                          data-lineheight="['50']"
+                                          data-hoffset="['0']"
+                                          data-y="['top']"
+                                          data-voffset="['10'']"
+                                          data-fontsize="['64','64','54','24']"
+                                          data-lineheight="['90']"
 
                                           data-width="none"
                                           data-height="none"
                                           data-whitespace="nowrap"
                                           data-transform_idle="o:1;s:500"
                                           data-transform_in="y:100;scaleX:1;scaleY:1;opacity:0;"
-                                          data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
+                                          data-transform_out="x:right(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
                                           data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                                           data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                                          data-start="1400" 
+                                          data-start="2900" 
                                           data-splitin="none" 
                                           data-splitout="none" 
                                           data-responsive_offset="on"
-                                          style="z-index: 5; white-space: nowrap; font-weight:600; border-right: 6px solid;cursor: pointer;" data-toggle="modal" data-target="#myModal">Et recevez un cadeau</div>
-                                        -->
+                                          style="z-index: 5; white-space: nowrap; border-right: 6px solid;cursor: pointer;" data-toggle="modal" data-target="#myModal"><img style="max-height: 175px !important;max-width: 175px !important;margin:0;" src="images/product/satisfait.png" alt=""></div>
+                                        
+                                        <div id="infobulle" class="tp-caption tp-resizeme text-center font-raleway pl-30 pr-30 border-theme-colored no-border" 
+                                          id="rs-1-layer-2"
+                                            data-x="['middle']"
+                                            data-hoffset="['30']"
+                                            data-y="['bottom']"
+                                            data-voffset="['200'']"
+                                            data-fontsize="['30','27','24','8']"
+                                            data-lineheight="['60']"
+                                             
+                                            data-width="none"
+                                            data-height="none"
+                                            data-whitespace="nowrap"
+                                            data-transform_idle="o:1;s:500"
+                                            data-transform_in="y:100;scaleX:1;scaleY:1;opacity:0;"
+                                            data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
+                                            data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                                            data-start="1800" 
+                                            data-splitin="none" 
+                                            data-splitout="none" 
+                                            data-responsive_offset="on"
+                                            style="z-index: 5; white-space: nowrap; font-weight:600; border-right: 6px solid;cursor: pointer;color: rgba(238, 116, 33, 0.9);font-family: Myriad;font-style: italic;text-shadow: 1px 1px rgba(0, 0, 0, 0.5); " data-toggle="modal" data-target="#myModal" > + 1 mois de coatching minceur OFFERT</div>
+                                        <div id="infobulle" class="tp-caption tp-resizeme text-center font-raleway pl-30 pr-30 border-theme-colored no-border" 
+                                          id="rs-1-layer-2"
+                                            data-x="['middle']"
+                                            data-hoffset="['30']"
+                                            data-y="['bottom']"
+                                            data-voffset="['150'']"
+                                            data-fontsize="['18','18','18','18']"
+                                            data-lineheight="['60']"
+                                             
+                                            data-width="none"
+                                            data-height="none"
+                                            data-whitespace="nowrap"
+                                            data-transform_idle="o:1;s:500"
+                                            data-transform_in="y:100;scaleX:1;scaleY:1;opacity:0;"
+                                            data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
+                                            data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                                            data-start="2000" 
+                                            data-splitin="none" 
+                                            data-splitout="none" 
+                                            data-responsive_offset="on"
+                                            style="z-index: 5; white-space: nowrap; font-weight:600; border-right: 6px solid;cursor: pointer;color: rgba(238, 116, 33, 0.9);font-family: Myriad;font-style: italic;text-shadow: 1px 1px rgba(0, 0, 0, 0.5); " data-toggle="modal" data-target="#myModal" >(recette dietetique, liste de course, menus complet)</div>
+                                        
                                         <div class="tp-caption tp-resizeme text-center text-white font-raleway bg-dark-transparent pl-30 pr-30 border-theme-colored no-border" 
                                           id="rs-1-layer-2"
                                             data-x="['middle']"
@@ -77,7 +121,7 @@
                                             data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
                                             data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                                             data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                                            data-start="1400" 
+                                            data-start="2500" 
                                             data-splitin="none" 
                                             data-splitout="none" 
                                             data-responsive_offset="on"

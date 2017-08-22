@@ -52,6 +52,16 @@
     <!-- Revolution Slider 5.x SCRIPTS -->
     <script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
     <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84920945-1', 'auto');
+  ga('send', 'pageview');
+
+	</script>
     
 </head>
     
@@ -72,7 +82,7 @@
         <!-- Main-content -->
         <div class="main-content">
             <!-- Section: slide -->
-            <section id="slide" class="">
+            <section id="slide" class ="no-phone">
                 <?php include 'include/home/slide.php'; ?>
             </section>
             
@@ -81,15 +91,17 @@
                 <?php include 'include/home/product.php'; ?>
             </section> 
             
-            <!-- Section: Descript -->   
-            <section id="descript" class=" parallax layer-overlay overlay-white" >
-                <?php include 'include/home/descript.php'; ?>
-            </section>
-            
             <!-- Section: temoignages -->
             <section id="witness" class="divider parallax layer-overlay overlay-white"  >
                 <?php include 'include/home/witness.php'; ?>
             </section>
+            
+            <!-- Section: Descript -->   
+            <section id="descript" class=" parallax layer-overlay overlay-white" >
+                <?php include 'include/home/descript2.php'; ?>
+            </section>
+            
+            
 
         </div>
         

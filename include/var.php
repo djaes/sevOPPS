@@ -1,7 +1,7 @@
 <?php
-$addrMail = "bioactivfit@gmail.com";
+$addrMail = "serviceclient@bioactivfit.fr";
 $addrSite = "Bioactivfit.com";
-$copyright = "Copyright &copy;2070 apres moi . All Rights Reserved";
+$copyright = "Copyright &copy;2070. All Rights Reserved";
 $logoPath ="images/logo-favicon/logo_500X150.png";
 $partenaireLink1 = "http://www.google.fr";
 
@@ -100,6 +100,6 @@ autre personne. C’est merveilleux,
 c’est vraiment un super produit
 ce Bioactivfit !";
 $wintnes6 = "Après seulement une semaine je sais pas si c'est seulement dans ma tete mais je me sens mieux deja . du tonus et meme envie de ressortir mon velo du garage .Je suis trés curieux de voir le resultat apres deux mois mais ca commence bien .";
-
+session_start();
 
 ?>

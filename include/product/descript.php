@@ -2,6 +2,7 @@
     <div class="">
         <a href="#" data-toggle="modal" data-target="#myModal" class="no-mobile" >
             <img src="<?php echo $productImgDescript; ?>" alt="">
+            <img class="no-phone" style="max-height: 100px !important;margin:0;" src="images/product/fabriqueFrance.jpg" alt="">
         </a>
     </div>
 </div>

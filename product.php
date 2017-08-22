@@ -81,7 +81,7 @@
             <!-- Section: Features -->
             <section id="features" class="bg-lighter">
                 <div class="container">
-                    <?php include 'include/product/features.php'; ?>
+                    <?php include 'include/product/features2.php'; ?>
                 </div>
             </section>
         </div>

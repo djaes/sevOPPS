@@ -9,10 +9,10 @@
     <div class="loginmodal-container">
         
         
-        <form >
-            <input type="text" name="user" placeholder="Identifiant">
-            <input type="password" name="pass" placeholder="Mot de passe">
-            <input type="submit" name="login" class="login loginmodal-submit" value="Login">
+        <form method="post" action="backoffice-menu.php">
+            <input type="text" name="login" placeholder="Identifiant ou e-mail">
+            <input type="password" name="password" placeholder="Mot de passe">
+            <input type="submit" name="send_login" class="login loginmodal-submit" value="Login">
         </form>
 
         <div class="login-help">
